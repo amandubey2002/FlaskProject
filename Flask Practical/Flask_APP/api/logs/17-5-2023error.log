@@ -1,0 +1,256 @@
+2023-05-17 14:31:12,365 ERROR Exception on /api/product_list [GET]
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 403, in product_list
+    items = products(offset, per_page)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 383, in products
+    mycursure.execute(f"SELECT * FROM Products LIMIT {per_page} OFFSET {offset}")
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-05-17 14:31:21,219 ERROR Exception on /api/product_list [GET]
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 403, in product_list
+    items = products(offset, per_page)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 383, in products
+    mycursure.execute(f"SELECT * FROM Products LIMIT {per_page} OFFSET {offset}")
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-05-17 14:31:33,201 ERROR Exception on /api/product_list [GET]
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 403, in product_list
+    items = products(offset, per_page)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 383, in products
+    mycursure.execute(f"SELECT * FROM Products LIMIT {per_page} OFFSET {offset}")
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-05-17 14:31:39,056 ERROR Exception on /api/product_list [GET]
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 403, in product_list
+    items = products(offset, per_page)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/api/api.py", line 383, in products
+    mycursure.execute(f"SELECT * FROM Products LIMIT {per_page} OFFSET {offset}")
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/lib/python3/dist-packages/pymysql/connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2023-05-17 14:42:55,896 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,905 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,915 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,928 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,935 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,939 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,945 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,953 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,964 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,968 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,972 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,978 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,989 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:55,998 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:56,003 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:56,005 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:56,007 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:56,011 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:56,017 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:56,024 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,064 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,072 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,083 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,092 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,098 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,106 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,117 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,121 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,123 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,126 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,128 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,136 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,141 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,145 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,152 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,157 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,161 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,165 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,170 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:42:57,172 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,185 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,191 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,197 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,204 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,214 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,221 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,227 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,231 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,240 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,250 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,255 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,258 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,261 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,266 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,274 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,282 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,286 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,288 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,290 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:02,292 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,648 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,656 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,664 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,678 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,686 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,690 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,692 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,699 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,703 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,707 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,710 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,716 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,720 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,722 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,727 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,732 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,735 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,738 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,740 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:47,741 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,769 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,778 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,787 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,803 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,810 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,820 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,828 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,832 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,834 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,836 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,837 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,840 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,847 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,854 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,859 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,862 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,864 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,866 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,868 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:43:48,869 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,862 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,869 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,875 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,891 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,899 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,903 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,906 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,911 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,916 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,919 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,923 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,929 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,932 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,936 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,940 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,945 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,949 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,952 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,954 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:05,956 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:06,977 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:06,980 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:06,989 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,000 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,007 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,012 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,016 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,020 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,034 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,040 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,043 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,046 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,048 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,051 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,057 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,063 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,066 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,071 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,078 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")
+2023-05-17 14:45:07,082 ERROR (1146, "Table 'FlaskDB.product' doesn't exist")

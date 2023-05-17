@@ -1,0 +1,47 @@
+2023-05-09 11:47:03,503 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-09 11:51:56,922 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-09 11:56:08,120 ERROR Logger.info() missing 1 required positional argument: 'msg'
+2023-05-09 11:56:25,474 ERROR (1062, "Duplicate entry '1' for key 'Products.PRIMARY'")
+2023-05-09 12:00:56,117 ERROR 'email'
+2023-05-09 12:02:52,053 ERROR Encountered unknown tag 'comment'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2023-05-09 12:18:43,668 ERROR (1146, "Table 'FlaskDB.USERS' doesn't exist")
+2023-05-09 12:18:51,477 ERROR (1146, "Table 'FlaskDB.USERS' doesn't exist")
+2023-05-09 12:24:03,319 ERROR redirect() got an unexpected keyword argument 'messages'
+2023-05-09 12:24:57,442 ERROR redirect() got an unexpected keyword argument 'messages'
+2023-05-09 12:27:01,749 ERROR redirect() got an unexpected keyword argument 'messages'
+2023-05-09 12:31:08,938 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-09 12:31:18,770 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-09 12:31:57,252 ERROR 'email'
+2023-05-09 14:17:43,354 ERROR 'email'
+2023-05-09 14:37:12,250 ERROR 'str' object has no attribute 'decode'
+2023-05-09 14:53:36,923 ERROR 'email'
+2023-05-09 15:02:49,487 ERROR 'email'
+2023-05-09 15:10:35,585 ERROR 'str' object has no attribute 'decode'
+2023-05-09 15:11:34,794 ERROR 'email'
+2023-05-09 15:11:38,459 ERROR 'str' object has no attribute 'decode'
+2023-05-09 15:15:34,376 ERROR 'email'
+2023-05-09 15:16:09,818 ERROR 'email'
+2023-05-09 15:17:46,617 ERROR 'email'
+2023-05-09 15:18:03,018 ERROR 'email'
+2023-05-09 15:18:57,413 ERROR 'email'
+2023-05-09 15:35:09,113 ERROR 'email'
+2023-05-09 18:03:49,774 ERROR 'variant_price'
+2023-05-09 18:04:01,686 ERROR 400 Bad Request: Failed to decode JSON object: Expecting value: line 12 column 30 (char 368)
+2023-05-09 18:04:15,814 ERROR 'variant_price'
+2023-05-09 18:05:11,449 ERROR 'variant_price'
+2023-05-09 18:06:18,101 ERROR 'variant_price'
+2023-05-09 18:06:51,391 ERROR 'variant_price'
+2023-05-09 18:07:57,032 ERROR 'variant_price'
+2023-05-09 18:08:13,086 ERROR (1054, "Unknown column 'id' in 'field list'")
+2023-05-09 18:08:27,077 ERROR (1054, "Unknown column 'id' in 'field list'")
+2023-05-09 18:10:02,541 ERROR 'id'
+2023-05-09 18:10:48,515 ERROR 'id'
+2023-05-09 18:10:49,292 ERROR 'id'
+2023-05-09 18:10:49,748 ERROR 'id'
+2023-05-09 18:10:51,608 ERROR 'id'
+2023-05-09 18:11:07,868 ERROR (1054, "Unknown column 'id' in 'field list'")
+2023-05-09 18:11:08,544 ERROR (1054, "Unknown column 'id' in 'field list'")
+2023-05-09 18:11:44,188 ERROR (1054, "Unknown column 'Variant_SKU' in 'field list'")
+2023-05-09 18:13:23,378 ERROR 'id'
+2023-05-09 18:15:35,251 ERROR (1054, "Unknown column 'id' in 'field list'")
+2023-05-09 18:16:49,948 ERROR (1054, "Unknown column 'Variant_SKU' in 'field list'")

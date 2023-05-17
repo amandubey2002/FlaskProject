@@ -1,0 +1,11 @@
+2023-05-16 12:54:34,164 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-16 12:54:34,164 INFO [33mPress CTRL+C to quit[0m
+2023-05-16 12:54:34,165 INFO  * Restarting with stat
+2023-05-16 12:54:34,438 WARNING  * Debugger is active!
+2023-05-16 12:54:34,543 INFO  * Debugger PIN: 651-316-142
+2023-05-16 12:54:59,130 INFO 127.0.0.1 - - [16/May/2023 12:54:59] "GET /api/login HTTP/1.1" 200 -
+2023-05-16 12:54:59,144 INFO 127.0.0.1 - - [16/May/2023 12:54:59] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-16 12:55:05,663 INFO 127.0.0.1 - - [16/May/2023 12:55:05] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2023-05-16 12:55:05,678 INFO 127.0.0.1 - - [16/May/2023 12:55:05] "GET /api/product_list HTTP/1.1" 200 -
+2023-05-16 12:55:05,708 INFO 127.0.0.1 - - [16/May/2023 12:55:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -

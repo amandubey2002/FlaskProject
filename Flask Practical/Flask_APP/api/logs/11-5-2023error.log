@@ -1,0 +1,311 @@
+2023-05-11 10:04:43,563 ERROR 'NoneType' object is not subscriptable
+2023-05-11 10:16:06,870 ERROR not enough arguments for format string
+2023-05-11 10:16:54,852 ERROR not enough arguments for format string
+2023-05-11 10:18:02,574 ERROR not enough arguments for format string
+2023-05-11 10:19:23,049 ERROR not enough arguments for format string
+2023-05-11 10:21:27,206 ERROR not enough arguments for format string
+2023-05-11 10:22:24,664 ERROR not enough arguments for format string
+2023-05-11 10:25:10,228 ERROR not enough arguments for format string
+2023-05-11 10:25:19,060 ERROR not enough arguments for format string
+2023-05-11 10:29:10,099 ERROR not enough arguments for format string
+2023-05-11 10:29:57,932 ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = 'admin'' at line 1")
+2023-05-11 10:31:38,360 ERROR not all arguments converted during string formatting
+2023-05-11 11:32:35,172 ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1")
+2023-05-11 12:01:21,196 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:05,975 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:08,283 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:10,613 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:12,902 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:15,308 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:17,652 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:19,865 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:22,131 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:24,446 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:26,665 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:29,023 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:31,358 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:33,582 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:35,970 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:38,281 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:40,626 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:42,862 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:45,230 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:02:47,474 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:03:01,453 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:54,712 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:55,418 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:56,181 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:56,976 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:57,666 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:58,443 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:59,187 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:04:59,949 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:05:00,699 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:05:01,352 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:05:02,116 ERROR type object 'datetime.datetime' has no attribute 'datetime'
+2023-05-11 12:06:47,157 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 12:57:15,249 ERROR (0, '')
+2023-05-11 12:58:21,491 ERROR (0, '')
+2023-05-11 12:58:46,796 ERROR (0, '')
+2023-05-11 13:03:49,558 ERROR (0, '')
+2023-05-11 13:58:49,173 ERROR (0, '')
+2023-05-11 13:59:58,400 ERROR (0, '')
+2023-05-11 14:00:06,993 ERROR (0, '')
+2023-05-11 14:11:15,254 ERROR (0, '')
+2023-05-11 14:11:15,256 ERROR (0, '')
+2023-05-11 14:11:15,259 ERROR (0, '')
+2023-05-11 14:11:15,262 ERROR (0, '')
+2023-05-11 14:11:15,265 ERROR (0, '')
+2023-05-11 14:11:15,267 ERROR (0, '')
+2023-05-11 14:11:15,270 ERROR (0, '')
+2023-05-11 14:11:15,271 ERROR (0, '')
+2023-05-11 14:11:15,273 ERROR (0, '')
+2023-05-11 14:11:15,274 ERROR (0, '')
+2023-05-11 14:11:15,275 ERROR (0, '')
+2023-05-11 14:11:15,276 ERROR (0, '')
+2023-05-11 14:11:15,278 ERROR (0, '')
+2023-05-11 14:11:15,280 ERROR (0, '')
+2023-05-11 14:11:15,282 ERROR (0, '')
+2023-05-11 14:11:15,284 ERROR (0, '')
+2023-05-11 14:11:15,286 ERROR (0, '')
+2023-05-11 14:11:15,287 ERROR (0, '')
+2023-05-11 14:11:15,289 ERROR (0, '')
+2023-05-11 14:11:15,290 ERROR (0, '')
+2023-05-11 14:11:16,307 ERROR (0, '')
+2023-05-11 14:11:16,309 ERROR (0, '')
+2023-05-11 14:11:16,312 ERROR (0, '')
+2023-05-11 14:11:16,315 ERROR (0, '')
+2023-05-11 14:11:16,317 ERROR (0, '')
+2023-05-11 14:11:16,320 ERROR (0, '')
+2023-05-11 14:11:16,321 ERROR (0, '')
+2023-05-11 14:11:16,323 ERROR (0, '')
+2023-05-11 14:11:16,324 ERROR (0, '')
+2023-05-11 14:11:16,325 ERROR (0, '')
+2023-05-11 14:11:16,327 ERROR (0, '')
+2023-05-11 14:11:16,328 ERROR (0, '')
+2023-05-11 14:11:16,331 ERROR (0, '')
+2023-05-11 14:11:16,333 ERROR (0, '')
+2023-05-11 14:11:16,335 ERROR (0, '')
+2023-05-11 14:11:16,336 ERROR (0, '')
+2023-05-11 14:11:16,337 ERROR (0, '')
+2023-05-11 14:11:16,338 ERROR (0, '')
+2023-05-11 14:11:16,339 ERROR (0, '')
+2023-05-11 14:11:16,340 ERROR (0, '')
+2023-05-11 14:11:21,347 ERROR (0, '')
+2023-05-11 14:11:21,349 ERROR (0, '')
+2023-05-11 14:11:21,352 ERROR (0, '')
+2023-05-11 14:11:21,354 ERROR (0, '')
+2023-05-11 14:11:21,356 ERROR (0, '')
+2023-05-11 14:11:21,357 ERROR (0, '')
+2023-05-11 14:11:21,358 ERROR (0, '')
+2023-05-11 14:11:21,359 ERROR (0, '')
+2023-05-11 14:11:21,360 ERROR (0, '')
+2023-05-11 14:11:21,362 ERROR (0, '')
+2023-05-11 14:11:21,363 ERROR (0, '')
+2023-05-11 14:11:21,364 ERROR (0, '')
+2023-05-11 14:11:21,367 ERROR (0, '')
+2023-05-11 14:11:21,370 ERROR (0, '')
+2023-05-11 14:11:21,372 ERROR (0, '')
+2023-05-11 14:11:21,374 ERROR (0, '')
+2023-05-11 14:11:21,376 ERROR (0, '')
+2023-05-11 14:11:21,377 ERROR (0, '')
+2023-05-11 14:11:21,379 ERROR (0, '')
+2023-05-11 14:11:21,380 ERROR (0, '')
+2023-05-11 14:11:37,046 ERROR (0, '')
+2023-05-11 14:11:37,048 ERROR (0, '')
+2023-05-11 14:11:37,050 ERROR (0, '')
+2023-05-11 14:11:37,053 ERROR (0, '')
+2023-05-11 14:11:37,056 ERROR (0, '')
+2023-05-11 14:11:37,059 ERROR (0, '')
+2023-05-11 14:11:37,061 ERROR (0, '')
+2023-05-11 14:11:37,063 ERROR (0, '')
+2023-05-11 14:11:37,064 ERROR (0, '')
+2023-05-11 14:11:37,065 ERROR (0, '')
+2023-05-11 14:11:37,067 ERROR (0, '')
+2023-05-11 14:11:37,068 ERROR (0, '')
+2023-05-11 14:11:37,069 ERROR (0, '')
+2023-05-11 14:11:37,071 ERROR (0, '')
+2023-05-11 14:11:37,072 ERROR (0, '')
+2023-05-11 14:11:37,074 ERROR (0, '')
+2023-05-11 14:11:37,076 ERROR (0, '')
+2023-05-11 14:11:37,078 ERROR (0, '')
+2023-05-11 14:11:37,081 ERROR (0, '')
+2023-05-11 14:11:37,082 ERROR (0, '')
+2023-05-11 14:11:38,101 ERROR (0, '')
+2023-05-11 14:11:38,104 ERROR (0, '')
+2023-05-11 14:11:38,108 ERROR (0, '')
+2023-05-11 14:11:38,111 ERROR (0, '')
+2023-05-11 14:11:38,114 ERROR (0, '')
+2023-05-11 14:11:38,116 ERROR (0, '')
+2023-05-11 14:11:38,118 ERROR (0, '')
+2023-05-11 14:11:38,119 ERROR (0, '')
+2023-05-11 14:11:38,121 ERROR (0, '')
+2023-05-11 14:11:38,122 ERROR (0, '')
+2023-05-11 14:11:38,124 ERROR (0, '')
+2023-05-11 14:11:38,127 ERROR (0, '')
+2023-05-11 14:11:38,130 ERROR (0, '')
+2023-05-11 14:11:38,131 ERROR (0, '')
+2023-05-11 14:11:38,133 ERROR (0, '')
+2023-05-11 14:11:38,134 ERROR (0, '')
+2023-05-11 14:11:38,135 ERROR (0, '')
+2023-05-11 14:11:38,136 ERROR (0, '')
+2023-05-11 14:11:38,138 ERROR (0, '')
+2023-05-11 14:11:38,139 ERROR (0, '')
+2023-05-11 14:11:43,147 ERROR (0, '')
+2023-05-11 14:11:43,149 ERROR (0, '')
+2023-05-11 14:11:43,152 ERROR (0, '')
+2023-05-11 14:11:43,156 ERROR (0, '')
+2023-05-11 14:11:43,158 ERROR (0, '')
+2023-05-11 14:11:43,160 ERROR (0, '')
+2023-05-11 14:11:43,162 ERROR (0, '')
+2023-05-11 14:11:43,164 ERROR (0, '')
+2023-05-11 14:11:43,165 ERROR (0, '')
+2023-05-11 14:11:43,166 ERROR (0, '')
+2023-05-11 14:11:43,167 ERROR (0, '')
+2023-05-11 14:11:43,168 ERROR (0, '')
+2023-05-11 14:11:43,170 ERROR (0, '')
+2023-05-11 14:11:43,171 ERROR (0, '')
+2023-05-11 14:11:43,172 ERROR (0, '')
+2023-05-11 14:11:43,173 ERROR (0, '')
+2023-05-11 14:11:43,174 ERROR (0, '')
+2023-05-11 14:11:43,175 ERROR (0, '')
+2023-05-11 14:11:43,177 ERROR (0, '')
+2023-05-11 14:11:43,179 ERROR (0, '')
+2023-05-11 14:12:16,547 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 14:12:16,551 ERROR (0, '')
+2023-05-11 14:12:16,555 ERROR (0, '')
+2023-05-11 14:12:16,558 ERROR (0, '')
+2023-05-11 14:12:16,560 ERROR (0, '')
+2023-05-11 14:12:16,561 ERROR (0, '')
+2023-05-11 14:12:16,563 ERROR (0, '')
+2023-05-11 14:12:16,566 ERROR (0, '')
+2023-05-11 14:12:16,569 ERROR (0, '')
+2023-05-11 14:12:16,571 ERROR (0, '')
+2023-05-11 14:12:16,573 ERROR (0, '')
+2023-05-11 14:12:16,574 ERROR (0, '')
+2023-05-11 14:12:16,575 ERROR (0, '')
+2023-05-11 14:12:16,576 ERROR (0, '')
+2023-05-11 14:12:16,578 ERROR (0, '')
+2023-05-11 14:12:16,579 ERROR (0, '')
+2023-05-11 14:12:16,580 ERROR (0, '')
+2023-05-11 14:12:16,584 ERROR (0, '')
+2023-05-11 14:12:16,586 ERROR (0, '')
+2023-05-11 14:12:16,588 ERROR (0, '')
+2023-05-11 14:19:29,106 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 14:19:29,110 ERROR (0, '')
+2023-05-11 14:19:29,113 ERROR (0, '')
+2023-05-11 14:19:29,115 ERROR (0, '')
+2023-05-11 14:19:29,117 ERROR (0, '')
+2023-05-11 14:19:29,119 ERROR (0, '')
+2023-05-11 14:19:29,120 ERROR (0, '')
+2023-05-11 14:19:29,122 ERROR (0, '')
+2023-05-11 14:19:29,124 ERROR (0, '')
+2023-05-11 14:19:29,125 ERROR (0, '')
+2023-05-11 14:19:29,127 ERROR (0, '')
+2023-05-11 14:19:29,128 ERROR (0, '')
+2023-05-11 14:19:29,130 ERROR (0, '')
+2023-05-11 14:19:29,132 ERROR (0, '')
+2023-05-11 14:19:29,134 ERROR (0, '')
+2023-05-11 14:19:29,135 ERROR (0, '')
+2023-05-11 14:19:29,136 ERROR (0, '')
+2023-05-11 14:19:29,137 ERROR (0, '')
+2023-05-11 14:19:29,139 ERROR (0, '')
+2023-05-11 14:19:29,141 ERROR (0, '')
+2023-05-11 14:19:30,163 ERROR (0, '')
+2023-05-11 14:19:30,165 ERROR (0, '')
+2023-05-11 14:19:30,166 ERROR (0, '')
+2023-05-11 14:19:30,168 ERROR (0, '')
+2023-05-11 14:19:30,170 ERROR (0, '')
+2023-05-11 14:19:30,172 ERROR (0, '')
+2023-05-11 14:19:30,174 ERROR (0, '')
+2023-05-11 14:19:30,176 ERROR (0, '')
+2023-05-11 14:19:30,177 ERROR (0, '')
+2023-05-11 14:19:30,178 ERROR (0, '')
+2023-05-11 14:19:30,179 ERROR (0, '')
+2023-05-11 14:19:30,180 ERROR (0, '')
+2023-05-11 14:19:30,181 ERROR (0, '')
+2023-05-11 14:19:30,182 ERROR (0, '')
+2023-05-11 14:19:30,184 ERROR (0, '')
+2023-05-11 14:19:30,185 ERROR (0, '')
+2023-05-11 14:19:30,186 ERROR (0, '')
+2023-05-11 14:19:30,187 ERROR (0, '')
+2023-05-11 14:19:30,188 ERROR (0, '')
+2023-05-11 14:19:30,190 ERROR (0, '')
+2023-05-11 14:20:14,817 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 14:20:14,821 ERROR (0, '')
+2023-05-11 14:20:14,824 ERROR (0, '')
+2023-05-11 14:20:14,826 ERROR (0, '')
+2023-05-11 14:20:14,828 ERROR (0, '')
+2023-05-11 14:20:14,830 ERROR (0, '')
+2023-05-11 14:20:14,831 ERROR (0, '')
+2023-05-11 14:20:14,833 ERROR (0, '')
+2023-05-11 14:20:14,834 ERROR (0, '')
+2023-05-11 14:20:14,835 ERROR (0, '')
+2023-05-11 14:20:14,836 ERROR (0, '')
+2023-05-11 14:20:14,837 ERROR (0, '')
+2023-05-11 14:20:14,838 ERROR (0, '')
+2023-05-11 14:20:14,839 ERROR (0, '')
+2023-05-11 14:20:14,840 ERROR (0, '')
+2023-05-11 14:20:14,841 ERROR (0, '')
+2023-05-11 14:20:14,842 ERROR (0, '')
+2023-05-11 14:20:14,843 ERROR (0, '')
+2023-05-11 14:20:14,845 ERROR (0, '')
+2023-05-11 14:20:14,846 ERROR (0, '')
+2023-05-11 14:20:23,697 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 14:20:27,032 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 14:20:30,528 ERROR No wkhtmltopdf executable found: "b''"
+If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+2023-05-11 14:27:26,916 ERROR 'utf-8' codec can't decode byte 0xaa in position 11: invalid start byte
+2023-05-11 14:28:49,120 ERROR 'utf-8' codec can't decode byte 0xa8 in position 12: invalid start byte
+2023-05-11 14:29:18,278 ERROR 'utf-8' codec can't decode byte 0xaa in position 11: invalid start byte
+2023-05-11 14:49:47,205 ERROR import_csv.html
+2023-05-11 14:49:55,764 ERROR import_csv.html
+2023-05-11 14:51:07,073 ERROR import_csv.html
+2023-05-11 14:51:12,508 ERROR import_csv.html
+2023-05-11 14:51:14,770 ERROR import_csv.html
+2023-05-11 14:51:24,404 ERROR import_csv.html
+2023-05-11 14:51:24,892 ERROR import_csv.html
+2023-05-11 14:52:04,428 ERROR import_csv.html
+2023-05-11 14:53:50,799 ERROR Could not build url for endpoint 'blueprint.login'. Did you mean 'upload_csv' instead?
+2023-05-11 14:54:01,083 ERROR Could not build url for endpoint 'blueprint.login'. Did you mean 'upload_csv' instead?
+2023-05-11 14:54:09,423 ERROR Could not build url for endpoint 'blueprint.login'. Did you mean 'upload_csv' instead?
+2023-05-11 14:54:11,972 ERROR Could not build url for endpoint 'blueprint.login'. Did you mean 'upload_csv' instead?
+2023-05-11 14:54:53,839 ERROR 'utf-8' codec can't decode byte 0xaa in position 11: invalid start byte
+2023-05-11 14:55:38,273 ERROR 'utf-8' codec can't decode byte 0xaa in position 11: invalid start byte
+2023-05-11 15:05:25,067 ERROR 'utf-8' codec can't decode byte 0xaa in position 11: invalid start byte
+2023-05-11 15:06:09,389 ERROR 'utf-8' codec can't decode byte 0xaa in position 11: invalid start byte
+2023-05-11 15:06:43,743 ERROR 'utf-8' codec can't decode byte 0xaa in position 11: invalid start byte
+2023-05-11 15:07:47,028 ERROR iterator should return strings, not bytes (the file should be opened in text mode)
+2023-05-11 15:25:10,218 ERROR iterator should return strings, not int (the file should be opened in text mode)
+2023-05-11 15:32:32,015 ERROR iterator should return strings, not bytes (the file should be opened in text mode)
+2023-05-11 15:33:27,585 ERROR iterator should return strings, not bytes (the file should be opened in text mode)
+2023-05-11 15:41:31,394 ERROR 
+2023-05-11 15:42:59,016 ERROR 'utf-8' codec can't decode byte 0xa8 in position 12: invalid start byte
+2023-05-11 15:45:08,702 ERROR cannot access local variable 'reader' where it is not associated with a value
+2023-05-11 15:46:39,800 ERROR iterator should return strings, not bytes (the file should be opened in text mode)

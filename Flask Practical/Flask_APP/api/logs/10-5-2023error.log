@@ -1,0 +1,14 @@
+2023-05-10 10:58:48,780 ERROR (1054, "Unknown column 'id' in 'where clause'")
+2023-05-10 11:16:46,149 ERROR 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-05-10 11:17:20,704 ERROR 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-05-10 14:31:13,016 ERROR 'NoneType' object is not subscriptable
+2023-05-10 14:31:29,809 ERROR 'NoneType' object is not subscriptable
+2023-05-10 14:32:00,138 ERROR 'NoneType' object is not subscriptable
+2023-05-10 14:32:37,661 ERROR 'NoneType' object is not subscriptable
+2023-05-10 14:33:42,199 ERROR 'NoneType' object is not subscriptable
+2023-05-10 14:35:01,883 ERROR 'NoneType' object is not subscriptable
+2023-05-10 14:36:19,565 ERROR not all arguments converted during string formatting
+2023-05-10 14:36:43,982 ERROR not all arguments converted during string formatting
+2023-05-10 14:47:18,209 ERROR 'tuple' object has no attribute 'email'
+2023-05-10 15:39:22,434 ERROR not enough arguments for format string
+2023-05-10 17:59:42,364 ERROR 'NoneType' object is not subscriptable
