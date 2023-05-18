@@ -538,4 +538,4 @@ def reset_password(token):
 app.register_blueprint(blueprint)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8000)
+    app.run(port=8000)
