@@ -22,13 +22,12 @@ import pandas as pd
 import pdfkit
 from flask_paginate import Pagination, get_page_parameter
 from blueprint import blueprint
-import chardet
 from logg import logger
 import pandas as pd
 
 app = Flask(
     __name__,
-    template_folder="/home/simprosys-aman/Aman/Aman/Flask Practical/Flask_APP/templates",
+    template_folder="/home/simprosys-aman/Aman/Flask/Flask Practical/Flask_APP/templates",
 )
 app.secret_key = b"ghjkjlkgfdfghjkl98797980989jhgfghjkl"
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
@@ -38,6 +37,9 @@ app.config["MAIL_PASSWORD"] = "zsuoyovnmxuqceam"
 app.config["MAIL_USE_TLS"] = True
 
 mail = Mail(app)
+
+exception_code = 40
+date = datetime.now()
 
 
 def MysqlDB():
@@ -52,7 +54,7 @@ def MysqlDB():
 
 
 conn = MysqlDB()
-
+mycursor = conn.cursor()
 
 @blueprint.route("/index", methods=["GET"])
 def index():
@@ -113,11 +115,7 @@ def signup():
 @blueprint.route("/login", methods=["GET", "POST"])
 def login():
     try:
-        if (
-            request.method == "POST"
-            and "password" in request.form
-            and "email" in request.form
-        ):
+        if request.method == "POST" and "password" in request.form and "email" in request.form:
             conn = MysqlDB()
             mycursor = conn.cursor()
             email = request.form["email"]
@@ -132,6 +130,10 @@ def login():
             if user:
                 session["authenticated"] = True
                 session["email"] = email
+                insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+                insert_value = (date,"0.0.0.0","user in the login")
+                mycursor.execute(insert_query,insert_value)
+                conn.commit()
                 conn.close()
                 print("herrrrrrrrrrrrrrr----------------------------------")
 
@@ -145,23 +147,21 @@ def login():
     except Exception as e:
         print("Something Went Wrong")
         logger.error(e)
-
+        insert_query = "Insert into Exceptions(exception_code,exception_date,exception_type,messages,IP,description) Values(%s,%s,%s,%s,%s,%s)"
+        insert_value = (exception_code,date,type(e),e,"0.0.0.0","Got error in the login time")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
+        conn.close()
+        
     return render_template("login.html")
 
 
 @blueprint.route("/logout", methods=["POST", "GET"])
 def logout():
-    try:
         session.pop("authenticated")
         session.pop("email")
 
         return redirect("/api/login")
-
-    except Exception as e:
-        print("Something went wrong")
-        logger.error(e)
-
-    return redirect("api/login")
 
 
 @blueprint.route("/change_password", methods=["POST", "GET"])
@@ -177,6 +177,9 @@ def change_password():
                 update_query = "UPDATE Users SET password = %s WHERE email = %s"
                 update_value = (password, email)
                 mycursour.execute(update_query, update_value)
+                insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+                insert_value = (date,"0.0.0.0","user changeing the password")
+                mycursor.execute(insert_query,insert_value)
                 conn.commit()
                 conn.close()
                 flash("Password changed Successfully")
@@ -191,6 +194,11 @@ def change_password():
     except Exception as e:
         print("Someting went wrong")
         logger.error(e)
+        insert_query = "Insert into Exceptions(exception_code,exception_date,exception_type,messages,IP,description) Values(%s,%s,%s,%s,%s,%s)"
+        insert_value = (exception_code,date,type(e),e,"0.0.0.0","Got error in the Change Password time")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
+        conn.close()
 
     return redirect("/api/change_password")
 
@@ -311,7 +319,9 @@ def upload_csv():
                     row["Status"],
                 )
                 cursor.execute(insert_stmt, values)
-
+                insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+                insert_value = (date,"0.0.0.0","user import csv")
+                mycursor.execute(insert_query,insert_value)
             cursor.close()
             mysqlcsv.commit()
 
@@ -322,6 +332,11 @@ def upload_csv():
     except Exception as e:
         print("Someting went wrong")
         logger.error(e)
+        insert_query = "Insert into Exceptions(exception_code,exception_date,exception_type,messages,IP,description) Values(%s,%s,%s,%s,%s,%s)"
+        insert_value = (exception_code,date,type(e),e,"0.0.0.0","Got error in the upload csv time")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
+        conn.close()
     return redirect("/api/login")
 
 
@@ -336,6 +351,10 @@ def export_csv():
         csv_data = df.to_csv()
         now = datetime.now()
         filename = now.strftime("%Y-%m-%d %H:%M:%S") + ":products.csv"
+        insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+        insert_value = (date,"0.0.0.0","user in the login")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
         mycursour.close()
         conn.close()
         response = Response(
@@ -349,6 +368,11 @@ def export_csv():
     except Exception as e:
         print("Someting went wrong")
         logger.error(e)
+        insert_query = "Insert into Exceptions(exception_code,exception_date,exception_type,messages,IP,description) Values(%s,%s,%s,%s,%s,%s)"
+        insert_value = (exception_code,date,type(e),e,"0.0.0.0","Got error in the export_csv time")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
+        conn.close()
 
     return redirect("/api/export_csv")
 
@@ -360,6 +384,10 @@ def export_pdf():
         mycursor = conn.cursor()
         mycursor.execute("SELECT * FROM insert_dynamic_data_csv")
         data = mycursor.fetchall()
+        insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+        insert_value = (date,"0.0.0.0","user is trying to export pdf")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
         mycursor.close()
         conn.close()
         template = render_template("pdf_data.html", data=data)
@@ -373,6 +401,11 @@ def export_pdf():
     except Exception as e:
         print("Someting went wrong")
         logger.error(e)
+        insert_query = "Insert into Exceptions(exception_code,exception_date,exception_type,messages,IP,description) Values(%s,%s,%s,%s,%s,%s)"
+        insert_value = (exception_code,date,type(e),e,"0.0.0.0","Got error in the export_pdf time")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
+        conn.close()
 
     return redirect("/api/export_pdf")
 
@@ -390,27 +423,32 @@ def products(offset=None, per_page=None):
 
 @blueprint.route("/product_list", methods=["GET", "POST"])
 def product_list():
-    # try:
     conn = MysqlDB()
     mycurser = conn.cursor()
     mycurser.execute("SELECT * FROM Products")
     alldata = mycurser.fetchall()
+    print(alldata)
     page = request.args.get(get_page_parameter(), type=int, default=1)
     first_page = 1
     per_page = 3
     offset = (page - 1) * int(per_page)
     print("offset", offset)
     items = products(offset, per_page)
+    print(items)
     conn = MysqlDB()
     mycursure = conn.cursor()
     mycursure.execute("SELECT * FROM Products")
     all_data = mycursure.fetchall()
     mycursure.close()
-    total_page = (len(all_data) // per_page) + len(all_data) % per_page - 1
+    total_page = (len(all_data) // per_page) + len(all_data) % per_page
     print("total page", total_page)
     if request.method == "POST":
         conn = MysqlDB()
         mycurser = conn.cursor()
+        insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+        insert_value = (date,"0.0.0.0","user in productlisting")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
         Product_id = request.form.getlist("product_id")
         print("product_id", Product_id)
         if Product_id == None:
@@ -425,6 +463,9 @@ def product_list():
             delete_query = "DELETE FROM Products WHERE product_id = %s;"
             delete_value = (Product_id,)
             mycurser.execute(delete_query, delete_value)
+            insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+            insert_value = (date,"0.0.0.0","user deleting product")
+            mycursor.execute(insert_query,insert_value)
             conn.commit()
             conn.close()
 
@@ -436,13 +477,16 @@ def product_list():
             delete_query = "DELETE FROM Products WHERE product_id in %s;"
             delete_value = (Product_id,)
             mycurser.execute(delete_query, delete_value)
+            insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+            insert_value = (date,"0.0.0.0","user deleting product")
+            mycursor.execute(insert_query,insert_value)
             conn.commit()
             conn.close()
 
             return redirect("product_list")
 
     return render_template(
-        "homepage.html",
+        "product_list.html",
         items=items,
         page=page,
         per_page=per_page,
@@ -455,13 +499,15 @@ def product_list():
 def forgot_password_and_reset():
     try:
         if request.method == "POST" and "email" in request.form:
-            conn = MysqlDB()
-            mycursurer = conn.cursor()
             email = request.form["email"]
             print("workingggggggggggggggggggggggg", email)
-            select_query = "select * from usertable where email = %s;"
-            mycursurer.execute(select_query, (email,))
-            user = mycursurer.fetchone()
+            select_query = "select * from Users where email = %s;"
+            mycursor.execute(select_query, (email,))
+            user = mycursor.fetchone()
+            insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+            insert_value = (date,"0.0.0.0","user trying to forgot password")
+            mycursor.execute(insert_query,insert_value)
+            conn.commit()
             print("userrrrrrrrrrrrrrrr", user)
             if user:
                 print("currrrrrrrrrr", user)
@@ -471,8 +517,8 @@ def forgot_password_and_reset():
                 print("____________++++++++++++++", token)
                 update_query = "UPDATE usertable SET expire_time = %s, token = %s where email = %s;"
                 update_value = (exptime, token, email)
-                mycursurer.execute(update_query, update_value)
-                mycursurer.close()
+                mycursor.execute(update_query, update_value)
+                mycursor.close()
                 conn.commit()
                 print("WE here___________________________")
                 msg = Message(
@@ -497,6 +543,11 @@ def forgot_password_and_reset():
     except Exception as e:
         print("Something Went Wrong")
         logger.error(e)
+        insert_query = "Insert into Exceptions(exception_code,exception_date,exception_type,messages,IP,description) Values(%s,%s,%s,%s,%s,%s)"
+        insert_value = (exception_code,date,type(e),e,"0.0.0.0","Got error in the export_pdf time")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
+        conn.close()
 
     return render_template("forgot_password.html")
 
@@ -509,6 +560,10 @@ def reset_password(token):
         select_query = "SELECT * FROM usertable where token = %s;"
         mycurser.execute(select_query, token)
         data = mycurser.fetchone()
+        insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+        insert_value = (date,"0.0.0.0","user reseting password")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
         date = datetime.now()
         exptime = int(datetime.timestamp(date))
         print("workinggggggggggggggg hereeeeeeeeeeeee")
@@ -531,11 +586,22 @@ def reset_password(token):
     except Exception as e:
         print("Something Went Wrong")
         logger.error(e)
+        insert_query = "Insert into Exceptions(exception_code,exception_date,exception_type,messages,IP,description) Values(%s,%s,%s,%s,%s,%s)"
+        insert_value = (exception_code,date,type(e),e,"0.0.0.0","Got error in the reset password time")
+        mycursor.execute(insert_query,insert_value)
+        conn.commit()
+        conn.close()
 
     return render_template("reset_password.html")
 
 
+# @blueprint.route("Exceptions",methods=["GET","POST"])
+# def exceptions():
+#     conn = MysqlDB()
+#     mycurser = conn.cursor()
+#     sql = "select * from Exceptions"
+
 app.register_blueprint(blueprint)
 
 if __name__ == "__main__":
-    app.run(port=8000)
+    app.run(debug=True,port=8000)

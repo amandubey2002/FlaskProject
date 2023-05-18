@@ -42,6 +42,33 @@ conn.execute(
             VariantSKU varchar(400), VariantInventoryTracker varchar(400), VariantPrice varchar(400), ImageSrc varchar(400) , primary key (product_id));"""
 )
 
+conn.execute(
+    """
+        CREATE TABLE IF NOT EXISTS Users_Activity (
+        id INTEGER PRIMARY KEY AUTO_INCREMENT,
+        user_activity_date VARCHAR(255),
+        IP VARCHAR(255),
+        description VARCHAR(255)
+        );
+    """
+)
+
+
+conn.execute(
+    """
+        CREATE TABLE IF NOT EXISTS Exceptions (
+        id INTEGER PRIMARY KEY AUTO_INCREMENT,
+        exception_code VARCHAR(255),
+        exception_date VARCHAR(255),
+        exception_type varchar(255),
+        messages text,
+        IP VARCHAR(255),
+        description VARCHAR(255)
+        );
+    """
+)
+
+
 mysqldb.commit()
 mysqldb.close()
 

@@ -68,6 +68,7 @@ class ProductApiView(Resource):
                 conn = MysqlDB()
                 mycusrsor = conn.cursor()
                 id = request.form['id']
+                print(id)
                 Handle = request.form['handle']
                 Title = request.form['title']
                 Body = request.form['body']
@@ -75,10 +76,16 @@ class ProductApiView(Resource):
                 Type = request.form['type']
                 Tags = request.form['tags']
                 Published = request.form['published']
+                print('here')
                 Variant_SKU = request.form['variant_sku']
                 Variant_Inventory_Tracker = request.form['variant_inventory_tracker']
+                print("here")
                 Variant_Price = request.form['variant_price']
+                print("here")
+                print(Variant_Price)
+                print("here")
                 Image_Src = request.form['image__src']
+                print(Image_Src)
                 sql = "INSERT INTO Products(product_id,Handle,Title,Body,Vendor,Type,Tags,Published,VariantSKU,VariantInventoryTracker,VariantPrice,ImageSrc) Values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
                 value = (id,Handle,Title,Body,Vendor,Type,Tags,Published,Variant_SKU,Variant_Inventory_Tracker,Variant_Price,Image_Src)
                 mycusrsor.execute(sql,value)

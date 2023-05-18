@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% block title %}
+<title> Products</title> 
+{% endblock %}
+{% block content %} 
+<body>
+    <form method="post" action="{{ url_for('blueprint.product_list') }}">
+      <div class="container-xl">
+      <table class="table table-bordered text-dark mt-3">
+          <thead>
+            <tr>
+              <th scope="col">Product ID</th>
+              <th scope="col">Title</th>
+              <th scope="col">Vendor</th>
+              <th scope="col">Type</th>
+              <th scope="col">check</th>
+              <th scope="col">Delete</th>
+      
+            </tr>
+          </thead>
+          {% for product in items %}
+          <tbody>
+            <tr>
+              <th scope="row">{{ product[0] }}</th>
+              <td>{{ product[1] }}</td>
+              <td>{{ product[2] }}</td>
+              <td>{{ product[4] }}</td>
+
+              <td><input type="checkbox" value="{{ product[0] }}" name="product_id"></td>
+              <td><button value="{{ product[0] }}" name="product_id" onclick="return confirm('Are you sure you want to delete this product?')" class="btn btn-danger">Delete</button></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <button class="btn btn-danger" type="submit" onclick="return confirm('Are you sure you want to delete this product?')" >Delete selected products</button>
+    <hr>
+      <nav aria-label="...">
+        <ul class="pagination">
+            {% if page > 1 %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ page - 1 }}" tabindex="-1">Previous</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <span class="page-link">Previous</span>
+            </li>
+            {% endif %}
+    
+    
+            {% if page !=1 %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ first_page }}" tabindex="-1">First</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <span class="page-link">First</span>
+            </li>
+            {% endif %}
+    
+            {% if page %}
+            <li class="page-item active">
+                <span class="page-link">Current Page: {{ page }}</span>
+            </li>
+            {% else %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ num }}">{{ page }}</a>
+            </li>
+            {% endif %}
+    
+    
+            {% if total_page == page %}
+    
+            <li class="page-item">
+            <li class="page-item disabled">
+                <span class="page-link">Next</span>
+            </li>
+    
+            
+            {% else %}
+            
+            <li class="page-item">
+                <a class="page-link" href="?page={{ page + 1 }}">Next</a>
+    
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ total_page }}">Last</a>
+                </li>
+                
+                {% endif %}
+    
+    </nav>
+</div>
+</form>
+</body>
+{% endblock %} 
