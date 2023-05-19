@@ -152,6 +152,7 @@ def login():
         mycursor.execute(insert_query,insert_value)
         conn.commit()
         conn.close()
+    
         
     return render_template("login.html")
 
@@ -451,25 +452,10 @@ def product_list():
         conn.commit()
         Product_id = request.form.getlist("product_id")
         print("product_id", Product_id)
-        if Product_id == None:
-            flash("No product has been selected")
+        if Product_id == []:
+            flash("Please select the product first")
 
             return redirect("/api/product_list")
-
-        elif Product_id == 1:
-            conn = MysqlDB()
-            mycurser = conn.cursor()
-            Product_id = request.form.getlist("product_id")
-            delete_query = "DELETE FROM Products WHERE product_id = %s;"
-            delete_value = (Product_id,)
-            mycurser.execute(delete_query, delete_value)
-            insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
-            insert_value = (date,"0.0.0.0","user deleting product")
-            mycursor.execute(insert_query,insert_value)
-            conn.commit()
-            conn.close()
-
-            return redirect("product_list")
         else:
             conn = MysqlDB()
             mycurser = conn.cursor()
@@ -482,6 +468,7 @@ def product_list():
             mycursor.execute(insert_query,insert_value)
             conn.commit()
             conn.close()
+            flash(f"Products {Product_id} has been deleted sucsessfully")
 
             return redirect("product_list")
 
@@ -564,8 +551,8 @@ def reset_password(token):
         insert_value = (date,"0.0.0.0","user reseting password")
         mycursor.execute(insert_query,insert_value)
         conn.commit()
-        date = datetime.now()
-        exptime = int(datetime.timestamp(date))
+        date1 = datetime.now()
+        exptime = int(datetime.timestamp(date1))
         print("workinggggggggggggggg hereeeeeeeeeeeee")
         if exptime < int(data[3]):
             if request.method == "POST" and "password" in request.form:
@@ -594,12 +581,6 @@ def reset_password(token):
 
     return render_template("reset_password.html")
 
-
-# @blueprint.route("Exceptions",methods=["GET","POST"])
-# def exceptions():
-#     conn = MysqlDB()
-#     mycurser = conn.cursor()
-#     sql = "select * from Exceptions"
 
 app.register_blueprint(blueprint)
 
