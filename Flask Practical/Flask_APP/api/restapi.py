@@ -33,7 +33,6 @@ class ProductApiView(Resource):
         except:
             print("Something went wrong")
     
-    
     def post(self):
         try:
             if request.method=='POST':

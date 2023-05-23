@@ -53,6 +53,7 @@ celery = make_celery(flask_app)
 
 @shared_task()
 def send_mail_to_user():
+    print("________________________________-")
     with flask_app.app_context():
         conn = MysqlDB()
         mycursor = conn.cursor()

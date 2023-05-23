@@ -1,0 +1,54 @@
+2023-05-22 09:49:36,639 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-22 09:49:36,639 INFO [33mPress CTRL+C to quit[0m
+2023-05-22 09:49:36,640 INFO  * Restarting with stat
+2023-05-22 09:49:36,910 WARNING  * Debugger is active!
+2023-05-22 09:49:37,012 INFO  * Debugger PIN: 928-498-070
+2023-05-22 11:20:31,794 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-22 11:20:31,794 INFO [33mPress CTRL+C to quit[0m
+2023-05-22 11:20:31,794 INFO  * Restarting with stat
+2023-05-22 11:20:31,900 WARNING  * Debugger is active!
+2023-05-22 11:20:31,900 INFO  * Debugger PIN: 928-498-070
+2023-05-22 11:20:59,252 INFO 127.0.0.1 - - [22/May/2023 11:20:59] "[31m[1mGET /Products HTTP/1.1[0m" 401 -
+2023-05-22 11:21:07,380 INFO 127.0.0.1 - - [22/May/2023 11:21:07] "POST /token HTTP/1.1" 200 -
+2023-05-22 11:21:40,858 INFO 127.0.0.1 - - [22/May/2023 11:21:40] "[33mGET /api/productsadd1 HTTP/1.1[0m" 404 -
+2023-05-22 11:21:46,954 INFO 127.0.0.1 - - [22/May/2023 11:21:46] "[33mGET /api/productsadd1 HTTP/1.1[0m" 404 -
+2023-05-22 11:22:08,449 INFO 127.0.0.1 - - [22/May/2023 11:22:08] "[33mGET /api/productsadd1 HTTP/1.1[0m" 404 -
+2023-05-22 11:22:09,644 INFO 127.0.0.1 - - [22/May/2023 11:22:09] "[33mGET /api/productsadd1 HTTP/1.1[0m" 404 -
+2023-05-22 11:22:12,260 INFO 127.0.0.1 - - [22/May/2023 11:22:12] "[33mGET /api/productsadd1 HTTP/1.1[0m" 404 -
+2023-05-22 11:22:12,940 INFO 127.0.0.1 - - [22/May/2023 11:22:12] "[33mGET /api/productsadd1 HTTP/1.1[0m" 404 -
+2023-05-22 11:22:13,571 INFO 127.0.0.1 - - [22/May/2023 11:22:13] "[33mGET /api/productsadd1 HTTP/1.1[0m" 404 -
+2023-05-22 11:22:44,485 INFO 127.0.0.1 - - [22/May/2023 11:22:44] "POST /token HTTP/1.1" 200 -
+2023-05-22 11:23:06,143 INFO 127.0.0.1 - - [22/May/2023 11:23:06] "[31m[1mGET /Products HTTP/1.1[0m" 422 -
+2023-05-22 11:23:20,487 INFO 127.0.0.1 - - [22/May/2023 11:23:20] "[31m[1mGET /Products HTTP/1.1[0m" 401 -
+2023-05-22 11:23:32,620 INFO 127.0.0.1 - - [22/May/2023 11:23:32] "GET /Products HTTP/1.1" 200 -
+2023-05-22 11:26:57,426 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-22 11:26:57,426 INFO [33mPress CTRL+C to quit[0m
+2023-05-22 11:26:57,426 INFO  * Restarting with stat
+2023-05-22 11:26:57,532 WARNING  * Debugger is active!
+2023-05-22 11:26:57,533 INFO  * Debugger PIN: 928-498-070
+2023-05-22 11:33:11,557 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Flask_APP/api/api.py', reloading
+2023-05-22 11:33:11,575 INFO  * Restarting with stat
+2023-05-22 11:33:11,676 WARNING  * Debugger is active!
+2023-05-22 11:33:11,677 INFO  * Debugger PIN: 928-498-070
+2023-05-22 11:36:24,795 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-22 11:36:24,795 INFO [33mPress CTRL+C to quit[0m
+2023-05-22 11:36:24,796 INFO  * Restarting with stat
+2023-05-22 11:36:24,899 WARNING  * Debugger is active!
+2023-05-22 11:36:24,900 INFO  * Debugger PIN: 928-498-070
+2023-05-22 15:37:30,758 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-22 15:37:30,758 INFO [33mPress CTRL+C to quit[0m
+2023-05-22 15:37:30,759 INFO  * Restarting with stat
+2023-05-22 15:37:31,025 WARNING  * Debugger is active!
+2023-05-22 15:37:31,025 INFO  * Debugger PIN: 717-256-444
+2023-05-22 15:37:37,789 INFO 127.0.0.1 - - [22/May/2023 15:37:37] "[33mGET /user/login/ HTTP/1.1[0m" 404 -
+2023-05-22 15:37:45,233 INFO 127.0.0.1 - - [22/May/2023 15:37:45] "[33mGET /api/login/ HTTP/1.1[0m" 404 -
+2023-05-22 15:37:48,085 INFO 127.0.0.1 - - [22/May/2023 15:37:48] "[33mGET /api/login/ HTTP/1.1[0m" 404 -
+2023-05-22 15:38:37,055 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Flask_APP/api/api.py', reloading
+2023-05-22 15:38:37,139 INFO  * Restarting with stat
+2023-05-22 15:38:37,421 WARNING  * Debugger is active!
+2023-05-22 15:38:37,421 INFO  * Debugger PIN: 717-256-444

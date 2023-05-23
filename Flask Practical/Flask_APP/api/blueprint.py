@@ -1,3 +1,3 @@
-from flask import Blueprint,Flask
+from flask import Blueprint
 blueprint = Blueprint('blueprint',__name__,url_prefix='/api')
 
