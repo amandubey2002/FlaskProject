@@ -11,11 +11,6 @@ app.config["JWT_SECRET_KEY"]= "jjdkjads834dmdk7"
 
 # jwt = JWTManager(app)
 
-
-
-rest_blueprint = Blueprint('rest_blueprint',__name__,url_prefix='/rest')
-# api = Api(app)
-
 def MysqlDB():
     conn = Pymysqldb.connect(
     host = 'localhost',
@@ -24,14 +19,18 @@ def MysqlDB():
     database = 'FlaskDB',
     )
     return conn
+conn = MysqlDB()
+mycurser = conn.cursor()
+
+rest_blueprint = Blueprint('rest_blueprint',__name__,url_prefix='/rest')
 
 
 
 
 @rest_blueprint.route("/token",methods=["POST"])
 def token():
-    conn = MysqlDB()
-    mycurser = conn.cursor()
+    # conn = MysqlDB()
+    # mycurser = conn.cursor()
     email =request.json.get("email")
     password = request.json.get("password")
     sql = "select * from Users where email=%s and password=%s "

@@ -8,18 +8,13 @@ from flask import (
     url_for,
     Blueprint
 )
-import mysql.connector
-import pymysql as Pymysqldb
+from flask_security import roles_accepted
 import uuid
 from flask_mail import Mail, Message
 from datetime import datetime, timedelta
-# from Flask_APP.api.logg import logger
-# from .models import conn,mycursor
-# from app_config import app
-# from product_app.blueprint import product_blueprint
 from logg import logger
-from login_rquired import login_required
-
+from login_rquired import login_required,admin_login_required
+from models import conn,mycursor
 app = Flask(__name__)
 
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
@@ -32,21 +27,6 @@ mail = Mail(app)
 
 user_blueprint = Blueprint("user_blueprint",__name__,url_prefix="/user")
 
-def MysqlDB():
-    conn = Pymysqldb.connect(
-        host="localhost",
-        user="root",
-        password="Dubey@123",
-        database="FlaskDB",
-    )
-
-    return conn
-
-
-conn = MysqlDB()
-mycursor = conn.cursor()
-
-user_blueprint = Blueprint('user_blueprint',__name__,url_prefix='/user')
 exception_code = 40
 date = datetime.now()
 
@@ -56,8 +36,6 @@ date = datetime.now()
 def signup():
     try:
         if request.method == "POST":
-            # conn = MysqlDB()
-            # mycursor = conn.cursor()
             username = request.form["username"]
             email = request.form["email"]
             password = request.form["password"]
@@ -65,7 +43,7 @@ def signup():
             if not username or not email or not password:
                 flash("All fields are required")
 
-                return redirect(url_for("user_blueprint.login"))
+                return redirect(url_for("user_blueprint.signup"))
             else:
                 insert_query = (
                     "INSERT INTO Users(username,email, password) Values (%s,%s,%s)"
@@ -96,8 +74,6 @@ def signup():
 @user_blueprint.route("/login/", methods=["POST", "GET"])
 def login():
     if request.method == "POST" and "password" in request.form and "email" in request.form:
-        # conn = MysqlDB()
-        # mycursor = conn.cursor()
         email = request.form["email"]
         print(email)
         password = request.form["password"]
@@ -109,7 +85,7 @@ def login():
         print(user)
         if user:
             session["authenticated"] = True
-            session["email"] = email
+            # session["email"] = email
             insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
             insert_value = (date,"0.0.0.0","user in the login")
             mycursor.execute(insert_query,insert_value)
@@ -121,15 +97,14 @@ def login():
             flash("Invalid email or password. Please try again.")
             return redirect(url_for("user_blueprint.login"))
 
-    return render_template("login.html")
+    return render_template("login_user.html")
 
 
 
 @user_blueprint.route("/logout", methods=["POST", "GET"])
 def logout():
         session.pop("authenticated")
-        session.pop("email")
-
+        # session.pop("email")
         return redirect(url_for("user_blueprint.login"))
 
 
@@ -142,8 +117,6 @@ def change_password():
             password2 = request.form["password2"]
             email = session["email"]
             if password == password2:
-                # conn = MysqlDB()
-                # mycursour = conn.cursor()
                 update_query = "UPDATE Users SET password = %s WHERE email = %s"
                 update_value = (password, email)
                 mycursor.execute(update_query, update_value)
@@ -151,7 +124,6 @@ def change_password():
                 insert_value = (date,"0.0.0.0","user changeing the password")
                 mycursor.execute(insert_query,insert_value)
                 conn.commit()
-                conn.close()
                 flash("Password changed Successfully")
 
                 return render_template("change_password.html")
@@ -234,18 +206,15 @@ def forgot_password_and_reset():
 @user_blueprint.route("/reset_password/<token>", methods=["POST", "GET"])
 def reset_password(token):
     try:
-        # conn = MysqlDB()
-        mycurser = conn.cursor()
         select_query = "SELECT * FROM usertable where token = %s;"
-        mycurser.execute(select_query, token)
-        data = mycurser.fetchone()
+        mycursor.execute(select_query, token)
+        data = mycursor.fetchone()
         insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
         insert_value = (date,"0.0.0.0","user reseting password")
-        mycurser.execute(insert_query,insert_value)
+        mycursor.execute(insert_query,insert_value)
         conn.commit()
         date1 = datetime.now()
         exptime = int(datetime.timestamp(date1))
-        print("workinggggggggggggggg hereeeeeeeeeeeee")
         if exptime < int(data[3]):
             if request.method == "POST" and "password" in request.form:
                 password = request.form["password"]
@@ -272,3 +241,110 @@ def reset_password(token):
         conn.close()
 
     return render_template("reset_password.html")
+
+
+
+@user_blueprint.route("/admin_dashboard",methods=["GET","POST"])
+@admin_login_required
+def admin_dashboard():
+    select_query = "Select * from Users"
+    mycursor.execute(select_query)
+    users = mycursor.fetchall()
+    return render_template("admin_dashboard.html",users=users)
+    
+    
+@user_blueprint.route("/admin_user_add",methods=["GET","POST"])
+def admin_user_add():
+    if request.method=="POST":
+        username = request.form['username']
+        email = request.form['email']
+        password = request.form['password']
+        role = request.form['usertype']
+        if not username or not email or not password or not role:
+            flash("All fields are required")
+
+            return redirect(url_for("user_blueprint.admin_dashboard"))
+        
+        else:
+            insert_query = "Insert into Users(username,email,password,role) values(%s,%s,%s,%s)"
+            insert_value = (username,email,password,role)
+            mycursor.execute(insert_query,insert_value)
+            conn.commit()
+            flash("User added Sucsessfully")
+            
+            return redirect(url_for("user_blueprint.admin_dashboard"))
+        
+    else:
+        
+            return render_template("add_user.html")
+        
+@user_blueprint.route("/admin_login/", methods=["POST", "GET"])
+def admin_login():
+    if request.method == "POST" and "password" in request.form and "email" in request.form:
+        email = request.form["email"]
+        password = request.form["password"]
+        role = request.form["usertype"]
+        select_query = "SELECT * FROM Users WHERE email = %s and password = %s and (role = 'admin' or role = 'staff')"
+        select_value = (email, password)
+        mycursor.execute(select_query, select_value)
+        user = mycursor.fetchone()
+        if user:
+            session["authenticated"] = True
+            session['role'] = role
+            insert_query = "Insert into Users_Activity(user_activity_date,IP,description) Values(%s,%s,%s)"
+            insert_value = (date,"0.0.0.0","admin_user in the login")
+            mycursor.execute(insert_query,insert_value)
+            conn.commit()
+
+            return redirect(url_for("user_blueprint.admin_dashboard"))
+        else:
+            flash("Invalid email or password. Please try again.")
+            
+            return redirect(url_for("user_blueprint.admin_login"))
+
+    return render_template("login_admin.html")
+
+
+@user_blueprint.route("/admin_logout", methods=["POST", "GET"])
+def admin_logout():
+        session.pop("authenticated")
+        session.pop("role")
+
+        return redirect(url_for("user_blueprint.admin_login"))
+
+@user_blueprint.route("/update_user/<int:id>",methods=["GET","POST"])
+def update_user(id):
+    print("this is id",id)
+    select_query = "select * from Users where id = %s"
+    select_value = (id)
+    mycursor.execute(select_query,select_value)
+    data = mycursor.fetchall()
+    main_data = data[0]
+    username = main_data[1]
+    email = main_data[2]
+    password = main_data[3]
+    role = main_data[4]
+    
+    if request.method=="POST":
+        username = request.form["username"]
+        email = request.form["email"]
+        password = request.form["password"]
+        role = request.form['role']
+        update_query = "Update Users set username = %s ,email = %s ,password = %s, role = %s where id = %s"
+        update_value = (username,email,password,role,id)
+        mycursor.execute(update_query,update_value)
+        conn.commit()
+        return redirect(url_for("user_blueprint.admin_dashboard"))
+        
+    return render_template("update_user.html",username=username,email=email,password=password,role=role,id=id)
+
+
+@user_blueprint.route("/delete_user/<int:id>",methods=["GET","POST"])
+@admin_login_required
+def delete_user(id):
+    select_query = "DELETE from Users where id = %s"
+    select_value = (id)
+    mycursor.execute(select_query,select_value)
+    conn.commit()
+    flash("user has been deleted sucsessfully")
+    return redirect(url_for("user_blueprint.admin_dashboard"))

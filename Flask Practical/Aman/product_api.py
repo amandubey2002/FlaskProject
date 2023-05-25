@@ -1,22 +1,14 @@
 from flask import (
-    Flask,
     render_template,
     request,
-    session,
     redirect,
     url_for,
     make_response,
     Response,
-    jsonify,
     flash,
 )
-from login_rquired import login_required
-# from Flask_APP.api.logg import logger
-# from userapp.models import conn,mycursor
+from login_rquired import login_required,admin_login_required
 import mysql.connector
-import pymysql as Pymysqldb
-from flask_mail import Mail, Message
-import csv
 import threading
 from datetime import datetime
 import pandas as pd
@@ -24,24 +16,11 @@ import pdfkit
 from flask_paginate import get_page_parameter
 import pandas as pd
 from logg import logger
-
 from flask import Blueprint
+from models import conn,mycursor
 
 product_blueprint = Blueprint('product_blueprint',__name__,url_prefix='/product')
 
-def MysqlDB():
-    conn = Pymysqldb.connect(
-        host="localhost",
-        user="root",
-        password="Dubey@123",
-        database="FlaskDB",
-    )
-
-    return conn
-
-
-conn = MysqlDB()
-mycursor = conn.cursor()
 
 exception_code = 40
 date = datetime.now()
@@ -170,7 +149,9 @@ def upload_csv():
             mysqlcsv.commit()
 
             flash("Csv imported Sucsessfully")
-            return redirect("/user_blueprint/login")
+            
+            return redirect(url_for("user_blueprint.login"))
+        
         return render_template("import_csv.html")
 
     except Exception as e:
@@ -181,7 +162,7 @@ def upload_csv():
         mycursor.execute(insert_query,insert_value)
         conn.commit()
         conn.close()
-    return redirect("/user_blueprint/login")
+    return redirect(url_for("user_blueprint.login"))
 
 
 @product_blueprint.route("/export_csv", methods=["POST", "GET"])
@@ -253,14 +234,13 @@ def export_pdf():
 
 
 def products(offset=None, per_page=None):
-    conn = MysqlDB()
-    mycursor = conn.cursor()
     mycursor.execute(f"SELECT * FROM Products LIMIT {per_page} OFFSET {offset}")
     datacursure = mycursor.fetchall()
 
     return datacursure
 
 @product_blueprint.route("/product_list", methods=["GET", "POST"])
+@admin_login_required
 @login_required
 def product_list():
     mycurser = conn.cursor()
@@ -273,8 +253,6 @@ def product_list():
     offset = (page - 1) * int(per_page)
     print("offset", offset)
     items = products(offset, per_page)
-    # conn = MysqlDB()
-    # mycursure = conn.cursor()
     mycurser.execute("SELECT * FROM Products")
     all_data = mycurser.fetchall()
     total_page = (len(all_data) // per_page) + len(all_data) % per_page

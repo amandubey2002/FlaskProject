@@ -1,0 +1,1570 @@
+2023-05-24 14:57:47,004 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 14:57:47,004 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 14:57:47,004 INFO  * Restarting with stat
+2023-05-24 14:57:47,275 WARNING  * Debugger is active!
+2023-05-24 14:57:47,275 INFO  * Debugger PIN: 330-407-437
+2023-05-24 14:57:57,800 INFO 127.0.0.1 - - [24/May/2023 14:57:57] "[33mGET /api/login/ HTTP/1.1[0m" 404 -
+2023-05-24 14:58:10,803 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 14:58:10,886 INFO  * Restarting with stat
+2023-05-24 14:58:11,150 WARNING  * Debugger is active!
+2023-05-24 14:58:11,151 INFO  * Debugger PIN: 330-407-437
+2023-05-24 14:58:12,323 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 14:58:12,371 INFO  * Restarting with stat
+2023-05-24 14:58:12,650 WARNING  * Debugger is active!
+2023-05-24 14:58:12,650 INFO  * Debugger PIN: 330-407-437
+2023-05-24 14:58:15,839 INFO 127.0.0.1 - - [24/May/2023 14:58:15] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 14:58:15,847 INFO 127.0.0.1 - - [24/May/2023 14:58:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 14:58:26,031 INFO 127.0.0.1 - - [24/May/2023 14:58:26] "[32mPOST /user/login/ HTTP/1.1[0m" 302 -
+2023-05-24 14:58:26,037 INFO 127.0.0.1 - - [24/May/2023 14:58:26] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 14:58:26,067 INFO 127.0.0.1 - - [24/May/2023 14:58:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 14:58:43,716 INFO 127.0.0.1 - - [24/May/2023 14:58:43] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 14:58:43,734 INFO 127.0.0.1 - - [24/May/2023 14:58:43] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 14:58:44,969 INFO 127.0.0.1 - - [24/May/2023 14:58:44] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 14:58:44,985 INFO 127.0.0.1 - - [24/May/2023 14:58:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 14:59:12,030 INFO 127.0.0.1 - - [24/May/2023 14:59:12] "[32mPOST /user/login/ HTTP/1.1[0m" 302 -
+2023-05-24 14:59:12,059 INFO 127.0.0.1 - - [24/May/2023 14:59:12] "GET /product/product_list HTTP/1.1" 200 -
+2023-05-24 14:59:12,077 INFO 127.0.0.1 - - [24/May/2023 14:59:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:04:55,124 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 15:04:55,173 INFO  * Restarting with stat
+2023-05-24 15:04:55,436 WARNING  * Debugger is active!
+2023-05-24 15:04:55,437 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:05:53,963 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 15:05:54,013 INFO  * Restarting with stat
+2023-05-24 15:05:54,280 WARNING  * Debugger is active!
+2023-05-24 15:05:54,280 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:09:12,972 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 15:09:13,019 INFO  * Restarting with stat
+2023-05-24 15:09:13,278 WARNING  * Debugger is active!
+2023-05-24 15:09:13,278 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:09:45,087 INFO 127.0.0.1 - - [24/May/2023 15:09:45] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 15:09:45,092 INFO 127.0.0.1 - - [24/May/2023 15:09:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:09:45,436 INFO 127.0.0.1 - - [24/May/2023 15:09:45] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 15:09:45,451 INFO 127.0.0.1 - - [24/May/2023 15:09:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:09:48,323 INFO 127.0.0.1 - - [24/May/2023 15:09:48] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:09:48,350 INFO 127.0.0.1 - - [24/May/2023 15:09:48] "GET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-24 15:09:48,358 INFO 127.0.0.1 - - [24/May/2023 15:09:48] "GET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-24 15:09:48,374 INFO 127.0.0.1 - - [24/May/2023 15:09:48] "GET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-24 15:09:48,380 INFO 127.0.0.1 - - [24/May/2023 15:09:48] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:10:02,648 INFO 127.0.0.1 - - [24/May/2023 15:10:02] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:10:02,660 INFO 127.0.0.1 - - [24/May/2023 15:10:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:10:25,354 INFO 127.0.0.1 - - [24/May/2023 15:10:25] "[32mGET /user/logout HTTP/1.1[0m" 302 -
+2023-05-24 15:10:25,360 INFO 127.0.0.1 - - [24/May/2023 15:10:25] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 15:10:25,388 INFO 127.0.0.1 - - [24/May/2023 15:10:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:10:35,685 INFO 127.0.0.1 - - [24/May/2023 15:10:35] "[32mPOST /user/login/ HTTP/1.1[0m" 302 -
+2023-05-24 15:10:35,694 INFO 127.0.0.1 - - [24/May/2023 15:10:35] "GET /product/product_list HTTP/1.1" 200 -
+2023-05-24 15:10:35,709 INFO 127.0.0.1 - - [24/May/2023 15:10:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:10:42,453 INFO 127.0.0.1 - - [24/May/2023 15:10:42] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:10:42,477 INFO 127.0.0.1 - - [24/May/2023 15:10:42] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:11:22,453 INFO 127.0.0.1 - - [24/May/2023 15:11:22] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:11:22,464 INFO 127.0.0.1 - - [24/May/2023 15:11:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:11:38,607 INFO 127.0.0.1 - - [24/May/2023 15:11:38] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:11:38,624 INFO 127.0.0.1 - - [24/May/2023 15:11:38] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:11:38,736 INFO 127.0.0.1 - - [24/May/2023 15:11:38] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:11:38,742 INFO 127.0.0.1 - - [24/May/2023 15:11:38] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:11:38,931 INFO 127.0.0.1 - - [24/May/2023 15:11:38] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:11:38,944 INFO 127.0.0.1 - - [24/May/2023 15:11:38] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:11:39,064 INFO 127.0.0.1 - - [24/May/2023 15:11:39] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:11:39,071 INFO 127.0.0.1 - - [24/May/2023 15:11:39] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:12:10,254 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:12:10,283 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:12:10,420 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:12:10,436 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:12:10,609 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:12:10,630 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:12:10,793 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:12:10,819 INFO 127.0.0.1 - - [24/May/2023 15:12:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:16:54,176 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 15:16:54,227 INFO  * Restarting with stat
+2023-05-24 15:16:54,505 WARNING  * Debugger is active!
+2023-05-24 15:16:54,505 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:16:55,820 INFO 127.0.0.1 - - [24/May/2023 15:16:55] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:16:55,832 INFO 127.0.0.1 - - [24/May/2023 15:16:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:16:55,832 INFO 127.0.0.1 - - [24/May/2023 15:16:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:16:55,845 INFO 127.0.0.1 - - [24/May/2023 15:16:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:16:55,853 INFO 127.0.0.1 - - [24/May/2023 15:16:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:17:44,081 INFO 127.0.0.1 - - [24/May/2023 15:17:44] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:17:44,107 INFO 127.0.0.1 - - [24/May/2023 15:17:44] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:17:44,111 INFO 127.0.0.1 - - [24/May/2023 15:17:44] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:17:44,144 INFO 127.0.0.1 - - [24/May/2023 15:17:44] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:17:44,158 INFO 127.0.0.1 - - [24/May/2023 15:17:44] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:18:06,716 INFO 127.0.0.1 - - [24/May/2023 15:18:06] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:06,727 INFO 127.0.0.1 - - [24/May/2023 15:18:06] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:07,337 INFO 127.0.0.1 - - [24/May/2023 15:18:07] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:07,358 INFO 127.0.0.1 - - [24/May/2023 15:18:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:07,668 INFO 127.0.0.1 - - [24/May/2023 15:18:07] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:07,686 INFO 127.0.0.1 - - [24/May/2023 15:18:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:16,776 INFO 127.0.0.1 - - [24/May/2023 15:18:16] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:16,789 INFO 127.0.0.1 - - [24/May/2023 15:18:16] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:16,979 INFO 127.0.0.1 - - [24/May/2023 15:18:16] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:16,998 INFO 127.0.0.1 - - [24/May/2023 15:18:16] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:17,153 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:17,170 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:17,337 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:17,357 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:17,480 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:17,487 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:17,650 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:17,671 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:17,815 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:17,828 INFO 127.0.0.1 - - [24/May/2023 15:18:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:18,009 INFO 127.0.0.1 - - [24/May/2023 15:18:18] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:18,029 INFO 127.0.0.1 - - [24/May/2023 15:18:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:18,185 INFO 127.0.0.1 - - [24/May/2023 15:18:18] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:18,208 INFO 127.0.0.1 - - [24/May/2023 15:18:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:18,346 INFO 127.0.0.1 - - [24/May/2023 15:18:18] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:18,366 INFO 127.0.0.1 - - [24/May/2023 15:18:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:20,490 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:20,513 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:20,640 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:20,647 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:20,820 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:20,842 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:20,982 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:20,992 INFO 127.0.0.1 - - [24/May/2023 15:18:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:23,135 INFO 127.0.0.1 - - [24/May/2023 15:18:23] "[32mPOST /product/product_list HTTP/1.1[0m" 302 -
+2023-05-24 15:18:23,144 INFO 127.0.0.1 - - [24/May/2023 15:18:23] "GET /product/product_list HTTP/1.1" 200 -
+2023-05-24 15:18:23,156 INFO 127.0.0.1 - - [24/May/2023 15:18:23] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:56,916 INFO 127.0.0.1 - - [24/May/2023 15:18:56] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:56,939 INFO 127.0.0.1 - - [24/May/2023 15:18:56] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:57,139 INFO 127.0.0.1 - - [24/May/2023 15:18:57] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:57,159 INFO 127.0.0.1 - - [24/May/2023 15:18:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:57,315 INFO 127.0.0.1 - - [24/May/2023 15:18:57] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:57,337 INFO 127.0.0.1 - - [24/May/2023 15:18:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:57,426 INFO 127.0.0.1 - - [24/May/2023 15:18:57] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:57,432 INFO 127.0.0.1 - - [24/May/2023 15:18:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:18:59,548 INFO 127.0.0.1 - - [24/May/2023 15:18:59] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:18:59,575 INFO 127.0.0.1 - - [24/May/2023 15:18:59] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:19:00,804 INFO 127.0.0.1 - - [24/May/2023 15:19:00] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:19:00,823 INFO 127.0.0.1 - - [24/May/2023 15:19:00] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:21:09,619 INFO 127.0.0.1 - - [24/May/2023 15:21:09] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:21:09,646 INFO 127.0.0.1 - - [24/May/2023 15:21:09] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:21:12,436 INFO 127.0.0.1 - - [24/May/2023 15:21:12] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:21:12,452 INFO 127.0.0.1 - - [24/May/2023 15:21:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:21:30,270 INFO 127.0.0.1 - - [24/May/2023 15:21:30] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:21:30,279 INFO 127.0.0.1 - - [24/May/2023 15:21:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:32:54,769 INFO 127.0.0.1 - - [24/May/2023 15:32:54] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:32:54,781 INFO 127.0.0.1 - - [24/May/2023 15:32:54] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:32:55,306 INFO 127.0.0.1 - - [24/May/2023 15:32:55] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:32:55,327 INFO 127.0.0.1 - - [24/May/2023 15:32:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:32:55,497 INFO 127.0.0.1 - - [24/May/2023 15:32:55] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:32:55,518 INFO 127.0.0.1 - - [24/May/2023 15:32:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:32:56,570 INFO 127.0.0.1 - - [24/May/2023 15:32:56] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:32:56,591 INFO 127.0.0.1 - - [24/May/2023 15:32:56] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:34:38,047 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:34:38,065 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:34:38,066 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:34:38,083 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:34:38,095 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:34:38,456 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:34:38,478 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:34:38,481 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:34:38,500 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:34:38,510 INFO 127.0.0.1 - - [24/May/2023 15:34:38] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:34:53,861 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 15:34:53,861 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 15:34:53,861 INFO  * Restarting with stat
+2023-05-24 15:34:54,155 WARNING  * Debugger is active!
+2023-05-24 15:34:54,155 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:34:55,891 INFO 127.0.0.1 - - [24/May/2023 15:34:55] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:34:55,908 INFO 127.0.0.1 - - [24/May/2023 15:34:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:34:55,908 INFO 127.0.0.1 - - [24/May/2023 15:34:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:34:55,914 INFO 127.0.0.1 - - [24/May/2023 15:34:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:34:55,925 INFO 127.0.0.1 - - [24/May/2023 15:34:55] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:02,938 INFO 127.0.0.1 - - [24/May/2023 15:35:02] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:02,958 INFO 127.0.0.1 - - [24/May/2023 15:35:02] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:02,959 INFO 127.0.0.1 - - [24/May/2023 15:35:02] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:02,977 INFO 127.0.0.1 - - [24/May/2023 15:35:02] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:02,985 INFO 127.0.0.1 - - [24/May/2023 15:35:02] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,090 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:03,100 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,100 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,130 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,144 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,263 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:03,286 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,288 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,308 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,316 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,427 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:03,452 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,455 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,477 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,487 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,579 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:03,584 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,584 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,590 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,601 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,752 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:03,775 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,778 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,804 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:03,818 INFO 127.0.0.1 - - [24/May/2023 15:35:03] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:06,438 INFO 127.0.0.1 - - [24/May/2023 15:35:06] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:06,465 INFO 127.0.0.1 - - [24/May/2023 15:35:06] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:06,466 INFO 127.0.0.1 - - [24/May/2023 15:35:06] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:06,485 INFO 127.0.0.1 - - [24/May/2023 15:35:06] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:06,494 INFO 127.0.0.1 - - [24/May/2023 15:35:06] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:09,483 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 15:35:09,483 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 15:35:09,484 INFO  * Restarting with stat
+2023-05-24 15:35:09,773 WARNING  * Debugger is active!
+2023-05-24 15:35:09,773 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:35:12,046 INFO 127.0.0.1 - - [24/May/2023 15:35:12] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:12,058 INFO 127.0.0.1 - - [24/May/2023 15:35:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:12,058 INFO 127.0.0.1 - - [24/May/2023 15:35:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:12,068 INFO 127.0.0.1 - - [24/May/2023 15:35:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:12,075 INFO 127.0.0.1 - - [24/May/2023 15:35:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:34,850 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 15:35:34,851 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 15:35:34,851 INFO  * Restarting with stat
+2023-05-24 15:35:35,140 WARNING  * Debugger is active!
+2023-05-24 15:35:35,140 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:35:37,430 INFO 127.0.0.1 - - [24/May/2023 15:35:37] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:37,453 INFO 127.0.0.1 - - [24/May/2023 15:35:37] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:37,454 INFO 127.0.0.1 - - [24/May/2023 15:35:37] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:37,474 INFO 127.0.0.1 - - [24/May/2023 15:35:37] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:37,481 INFO 127.0.0.1 - - [24/May/2023 15:35:37] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:39,421 INFO 127.0.0.1 - - [24/May/2023 15:35:39] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 15:35:39,449 INFO 127.0.0.1 - - [24/May/2023 15:35:39] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 15:35:39,455 INFO 127.0.0.1 - - [24/May/2023 15:35:39] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 15:35:39,475 INFO 127.0.0.1 - - [24/May/2023 15:35:39] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:39,485 INFO 127.0.0.1 - - [24/May/2023 15:35:39] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:35:48,619 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 15:35:48,619 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 15:35:48,620 INFO  * Restarting with stat
+2023-05-24 15:35:48,910 WARNING  * Debugger is active!
+2023-05-24 15:35:48,910 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:35:51,027 INFO 127.0.0.1 - - [24/May/2023 15:35:51] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:35:51,048 INFO 127.0.0.1 - - [24/May/2023 15:35:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:35:54,070 INFO 127.0.0.1 - - [24/May/2023 15:35:54] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:35:54,087 INFO 127.0.0.1 - - [24/May/2023 15:35:54] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:36:33,156 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:36:33,167 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:36:33,390 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:36:33,404 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:36:33,583 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:36:33,599 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:36:33,770 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:36:33,786 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:36:33,959 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:36:33,971 INFO 127.0.0.1 - - [24/May/2023 15:36:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:36:42,498 INFO 127.0.0.1 - - [24/May/2023 15:36:42] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:36:42,528 INFO 127.0.0.1 - - [24/May/2023 15:36:42] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:19,881 INFO 127.0.0.1 - - [24/May/2023 15:37:19] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:37:19,893 INFO 127.0.0.1 - - [24/May/2023 15:37:19] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:20,074 INFO 127.0.0.1 - - [24/May/2023 15:37:20] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:37:20,096 INFO 127.0.0.1 - - [24/May/2023 15:37:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:20,238 INFO 127.0.0.1 - - [24/May/2023 15:37:20] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:37:20,261 INFO 127.0.0.1 - - [24/May/2023 15:37:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:20,356 INFO 127.0.0.1 - - [24/May/2023 15:37:20] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:37:20,363 INFO 127.0.0.1 - - [24/May/2023 15:37:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:22,194 INFO 127.0.0.1 - - [24/May/2023 15:37:22] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:37:22,218 INFO 127.0.0.1 - - [24/May/2023 15:37:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:24,735 INFO 127.0.0.1 - - [24/May/2023 15:37:24] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:37:24,745 INFO 127.0.0.1 - - [24/May/2023 15:37:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:33,142 INFO 127.0.0.1 - - [24/May/2023 15:37:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:37:33,147 INFO 127.0.0.1 - - [24/May/2023 15:37:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:33,342 INFO 127.0.0.1 - - [24/May/2023 15:37:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:37:33,355 INFO 127.0.0.1 - - [24/May/2023 15:37:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:37:33,519 INFO 127.0.0.1 - - [24/May/2023 15:37:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:37:33,533 INFO 127.0.0.1 - - [24/May/2023 15:37:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:38:51,187 INFO 127.0.0.1 - - [24/May/2023 15:38:51] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:38:51,202 INFO 127.0.0.1 - - [24/May/2023 15:38:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:38:51,799 INFO 127.0.0.1 - - [24/May/2023 15:38:51] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:38:51,818 INFO 127.0.0.1 - - [24/May/2023 15:38:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:38:52,363 INFO 127.0.0.1 - - [24/May/2023 15:38:52] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:38:52,378 INFO 127.0.0.1 - - [24/May/2023 15:38:52] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:14,938 INFO 127.0.0.1 - - [24/May/2023 15:39:14] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:14,953 INFO 127.0.0.1 - - [24/May/2023 15:39:14] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:15,142 INFO 127.0.0.1 - - [24/May/2023 15:39:15] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:15,159 INFO 127.0.0.1 - - [24/May/2023 15:39:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:15,314 INFO 127.0.0.1 - - [24/May/2023 15:39:15] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:15,329 INFO 127.0.0.1 - - [24/May/2023 15:39:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:15,485 INFO 127.0.0.1 - - [24/May/2023 15:39:15] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:15,497 INFO 127.0.0.1 - - [24/May/2023 15:39:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:23,536 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 15:39:23,536 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 15:39:23,537 INFO  * Restarting with stat
+2023-05-24 15:39:23,817 WARNING  * Debugger is active!
+2023-05-24 15:39:23,817 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:39:25,498 INFO 127.0.0.1 - - [24/May/2023 15:39:25] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:25,503 INFO 127.0.0.1 - - [24/May/2023 15:39:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:25,858 INFO 127.0.0.1 - - [24/May/2023 15:39:25] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:25,870 INFO 127.0.0.1 - - [24/May/2023 15:39:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:26,033 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:26,038 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:26,183 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:26,193 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:26,367 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:26,379 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:26,664 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:26,678 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:26,847 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:26,860 INFO 127.0.0.1 - - [24/May/2023 15:39:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:35,493 INFO 127.0.0.1 - - [24/May/2023 15:39:35] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:35,502 INFO 127.0.0.1 - - [24/May/2023 15:39:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:35,674 INFO 127.0.0.1 - - [24/May/2023 15:39:35] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:35,678 INFO 127.0.0.1 - - [24/May/2023 15:39:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:36,060 INFO 127.0.0.1 - - [24/May/2023 15:39:36] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:36,069 INFO 127.0.0.1 - - [24/May/2023 15:39:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:36,227 INFO 127.0.0.1 - - [24/May/2023 15:39:36] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:36,238 INFO 127.0.0.1 - - [24/May/2023 15:39:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:45,394 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:45,406 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:45,553 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:45,569 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:45,726 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:45,738 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:45,875 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:45,889 INFO 127.0.0.1 - - [24/May/2023 15:39:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:39:46,011 INFO 127.0.0.1 - - [24/May/2023 15:39:46] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:39:46,026 INFO 127.0.0.1 - - [24/May/2023 15:39:46] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:40:12,814 INFO 127.0.0.1 - - [24/May/2023 15:40:12] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:40:12,822 INFO 127.0.0.1 - - [24/May/2023 15:40:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:40:13,029 INFO 127.0.0.1 - - [24/May/2023 15:40:13] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:40:13,046 INFO 127.0.0.1 - - [24/May/2023 15:40:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:40:13,196 INFO 127.0.0.1 - - [24/May/2023 15:40:13] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:40:13,211 INFO 127.0.0.1 - - [24/May/2023 15:40:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:40:13,348 INFO 127.0.0.1 - - [24/May/2023 15:40:13] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:40:13,363 INFO 127.0.0.1 - - [24/May/2023 15:40:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:50:01,415 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 15:50:01,471 INFO  * Restarting with stat
+2023-05-24 15:56:20,992 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 15:56:20,992 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 15:56:20,992 INFO  * Restarting with stat
+2023-05-24 15:56:21,256 WARNING  * Debugger is active!
+2023-05-24 15:56:21,257 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:56:33,887 INFO 127.0.0.1 - - [24/May/2023 15:56:33] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:56:33,908 INFO 127.0.0.1 - - [24/May/2023 15:56:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:56:35,547 INFO 127.0.0.1 - - [24/May/2023 15:56:35] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:56:35,563 INFO 127.0.0.1 - - [24/May/2023 15:56:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:56:38,716 INFO 127.0.0.1 - - [24/May/2023 15:56:38] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:56:38,732 INFO 127.0.0.1 - - [24/May/2023 15:56:38] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:56:48,265 INFO 127.0.0.1 - - [24/May/2023 15:56:48] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:56:48,284 INFO 127.0.0.1 - - [24/May/2023 15:56:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:57:12,799 ERROR 'mail'
+2023-05-24 15:57:12,800 INFO 127.0.0.1 - - [24/May/2023 15:57:12] "[32mPOST /user/signup HTTP/1.1[0m" 302 -
+2023-05-24 15:57:12,810 INFO 127.0.0.1 - - [24/May/2023 15:57:12] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 15:57:12,846 INFO 127.0.0.1 - - [24/May/2023 15:57:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:57:28,502 INFO 127.0.0.1 - - [24/May/2023 15:57:28] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:57:28,515 INFO 127.0.0.1 - - [24/May/2023 15:57:28] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:57:44,061 INFO 127.0.0.1 - - [24/May/2023 15:57:44] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:57:44,074 INFO 127.0.0.1 - - [24/May/2023 15:57:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:57:57,963 INFO 127.0.0.1 - - [24/May/2023 15:57:57] "[32mPOST /user/admin_user_add HTTP/1.1[0m" 302 -
+2023-05-24 15:57:57,969 INFO 127.0.0.1 - - [24/May/2023 15:57:57] "GET /user/admin_user_add HTTP/1.1" 200 -
+2023-05-24 15:57:57,981 INFO 127.0.0.1 - - [24/May/2023 15:57:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:58:18,356 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 15:58:18,407 INFO  * Restarting with stat
+2023-05-24 15:58:18,673 WARNING  * Debugger is active!
+2023-05-24 15:58:18,674 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:58:21,983 INFO 127.0.0.1 - - [24/May/2023 15:58:21] "GET /user/admin_user_add HTTP/1.1" 200 -
+2023-05-24 15:58:21,990 INFO 127.0.0.1 - - [24/May/2023 15:58:21] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:58:36,127 INFO 127.0.0.1 - - [24/May/2023 15:58:36] "[35m[1mPOST /user/admin_user_add HTTP/1.1[0m" 500 -
+2023-05-24 15:58:36,174 INFO 127.0.0.1 - - [24/May/2023 15:58:36] "GET /user/admin_user_add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-24 15:58:36,175 INFO 127.0.0.1 - - [24/May/2023 15:58:36] "GET /user/admin_user_add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-24 15:58:36,183 INFO 127.0.0.1 - - [24/May/2023 15:58:36] "GET /user/admin_user_add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-24 15:58:36,191 INFO 127.0.0.1 - - [24/May/2023 15:58:36] "[36mGET /user/admin_user_add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 15:58:46,441 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 15:58:46,493 INFO  * Restarting with stat
+2023-05-24 15:58:46,759 WARNING  * Debugger is active!
+2023-05-24 15:58:46,760 INFO  * Debugger PIN: 330-407-437
+2023-05-24 15:58:49,484 INFO 127.0.0.1 - - [24/May/2023 15:58:49] "GET /user/admin_user_add HTTP/1.1" 200 -
+2023-05-24 15:58:49,493 INFO 127.0.0.1 - - [24/May/2023 15:58:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:59:03,190 INFO 127.0.0.1 - - [24/May/2023 15:59:03] "POST /user/admin_user_add HTTP/1.1" 200 -
+2023-05-24 15:59:03,207 INFO 127.0.0.1 - - [24/May/2023 15:59:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:59:07,217 INFO 127.0.0.1 - - [24/May/2023 15:59:07] "GET /user/admin_user_add HTTP/1.1" 200 -
+2023-05-24 15:59:10,952 INFO 127.0.0.1 - - [24/May/2023 15:59:10] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:59:10,985 INFO 127.0.0.1 - - [24/May/2023 15:59:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:59:22,357 INFO 127.0.0.1 - - [24/May/2023 15:59:22] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 15:59:22,371 INFO 127.0.0.1 - - [24/May/2023 15:59:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 15:59:43,719 INFO 127.0.0.1 - - [24/May/2023 15:59:43] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 15:59:43,757 INFO 127.0.0.1 - - [24/May/2023 15:59:43] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:01:04,193 INFO 127.0.0.1 - - [24/May/2023 16:01:04] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:01:04,222 INFO 127.0.0.1 - - [24/May/2023 16:01:04] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:01:06,035 INFO 127.0.0.1 - - [24/May/2023 16:01:06] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 16:01:06,040 INFO 127.0.0.1 - - [24/May/2023 16:01:06] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:01:08,643 INFO 127.0.0.1 - - [24/May/2023 16:01:08] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 16:01:08,654 INFO 127.0.0.1 - - [24/May/2023 16:01:08] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:01:13,298 INFO 127.0.0.1 - - [24/May/2023 16:01:13] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 16:01:13,310 INFO 127.0.0.1 - - [24/May/2023 16:01:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:01:28,508 INFO 127.0.0.1 - - [24/May/2023 16:01:28] "POST /user/admin_user_add HTTP/1.1" 200 -
+2023-05-24 16:01:28,526 INFO 127.0.0.1 - - [24/May/2023 16:01:28] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:01:33,457 INFO 127.0.0.1 - - [24/May/2023 16:01:33] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:01:33,467 INFO 127.0.0.1 - - [24/May/2023 16:01:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:01:49,571 INFO 127.0.0.1 - - [24/May/2023 16:01:49] "[32mGET /user/logout HTTP/1.1[0m" 302 -
+2023-05-24 16:01:49,580 INFO 127.0.0.1 - - [24/May/2023 16:01:49] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 16:01:49,594 INFO 127.0.0.1 - - [24/May/2023 16:01:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:02:02,189 INFO 127.0.0.1 - - [24/May/2023 16:02:02] "[32mPOST /user/login/ HTTP/1.1[0m" 302 -
+2023-05-24 16:02:02,219 INFO 127.0.0.1 - - [24/May/2023 16:02:02] "GET /product/product_list HTTP/1.1" 200 -
+2023-05-24 16:02:02,239 INFO 127.0.0.1 - - [24/May/2023 16:02:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:02:12,507 INFO 127.0.0.1 - - [24/May/2023 16:02:12] "[32mGET /user/logout HTTP/1.1[0m" 302 -
+2023-05-24 16:02:12,513 INFO 127.0.0.1 - - [24/May/2023 16:02:12] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 16:02:12,525 INFO 127.0.0.1 - - [24/May/2023 16:02:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:02:17,430 INFO 127.0.0.1 - - [24/May/2023 16:02:17] "[32mPOST /user/login/ HTTP/1.1[0m" 302 -
+2023-05-24 16:02:17,436 INFO 127.0.0.1 - - [24/May/2023 16:02:17] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 16:02:17,471 INFO 127.0.0.1 - - [24/May/2023 16:02:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:02:22,029 INFO 127.0.0.1 - - [24/May/2023 16:02:22] "[32mPOST /user/login/ HTTP/1.1[0m" 302 -
+2023-05-24 16:02:22,042 INFO 127.0.0.1 - - [24/May/2023 16:02:22] "GET /product/product_list HTTP/1.1" 200 -
+2023-05-24 16:02:22,073 INFO 127.0.0.1 - - [24/May/2023 16:02:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:04:51,978 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:04:52,028 INFO  * Restarting with stat
+2023-05-24 16:04:52,290 WARNING  * Debugger is active!
+2023-05-24 16:04:52,290 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:04:53,466 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:04:53,516 INFO  * Restarting with stat
+2023-05-24 16:04:53,784 WARNING  * Debugger is active!
+2023-05-24 16:04:53,784 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:04:59,208 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:04:59,253 INFO  * Restarting with stat
+2023-05-24 16:04:59,519 WARNING  * Debugger is active!
+2023-05-24 16:04:59,520 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:05:11,321 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:05:11,367 INFO  * Restarting with stat
+2023-05-24 16:05:11,627 WARNING  * Debugger is active!
+2023-05-24 16:05:11,628 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:05:23,412 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:05:23,459 INFO  * Restarting with stat
+2023-05-24 16:05:23,720 WARNING  * Debugger is active!
+2023-05-24 16:05:23,720 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:05:29,168 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:05:29,218 INFO  * Restarting with stat
+2023-05-24 16:05:29,490 WARNING  * Debugger is active!
+2023-05-24 16:05:29,490 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:05:55,129 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:05:55,181 INFO  * Restarting with stat
+2023-05-24 16:05:55,452 WARNING  * Debugger is active!
+2023-05-24 16:05:55,453 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:05:56,622 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:05:56,680 INFO  * Restarting with stat
+2023-05-24 16:05:56,968 WARNING  * Debugger is active!
+2023-05-24 16:05:56,968 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:05:57,864 INFO 127.0.0.1 - - [24/May/2023 16:05:57] "[32mGET /user/logout HTTP/1.1[0m" 302 -
+2023-05-24 16:05:57,874 INFO 127.0.0.1 - - [24/May/2023 16:05:57] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 16:05:57,891 INFO 127.0.0.1 - - [24/May/2023 16:05:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:05:59,485 INFO 127.0.0.1 - - [24/May/2023 16:05:59] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 16:05:59,503 INFO 127.0.0.1 - - [24/May/2023 16:05:59] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:06:05,215 INFO 127.0.0.1 - - [24/May/2023 16:06:05] "[32mPOST /user/login/ HTTP/1.1[0m" 302 -
+2023-05-24 16:06:05,243 INFO 127.0.0.1 - - [24/May/2023 16:06:05] "GET /product/product_list HTTP/1.1" 200 -
+2023-05-24 16:06:05,274 INFO 127.0.0.1 - - [24/May/2023 16:06:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:06:08,557 INFO 127.0.0.1 - - [24/May/2023 16:06:08] "[32mGET /user/logout HTTP/1.1[0m" 302 -
+2023-05-24 16:06:08,563 INFO 127.0.0.1 - - [24/May/2023 16:06:08] "GET /user/login/ HTTP/1.1" 200 -
+2023-05-24 16:06:08,578 INFO 127.0.0.1 - - [24/May/2023 16:06:08] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:06:26,485 INFO 127.0.0.1 - - [24/May/2023 16:06:26] "[32mGET /user/admin_login HTTP/1.1[0m" 308 -
+2023-05-24 16:06:26,487 INFO 127.0.0.1 - - [24/May/2023 16:06:26] "GET /user/admin_login/ HTTP/1.1" 200 -
+2023-05-24 16:06:26,496 INFO 127.0.0.1 - - [24/May/2023 16:06:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:06:34,064 INFO 127.0.0.1 - - [24/May/2023 16:06:34] "[32mPOST /user/admin_login/ HTTP/1.1[0m" 302 -
+2023-05-24 16:06:34,071 INFO 127.0.0.1 - - [24/May/2023 16:06:34] "GET /user/admin_login/ HTTP/1.1" 200 -
+2023-05-24 16:06:34,103 INFO 127.0.0.1 - - [24/May/2023 16:06:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:06:41,456 INFO 127.0.0.1 - - [24/May/2023 16:06:41] "[32mPOST /user/admin_login/ HTTP/1.1[0m" 302 -
+2023-05-24 16:06:41,471 INFO 127.0.0.1 - - [24/May/2023 16:06:41] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:06:41,506 INFO 127.0.0.1 - - [24/May/2023 16:06:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:08:05,398 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:08:05,452 INFO  * Restarting with stat
+2023-05-24 16:08:05,723 WARNING  * Debugger is active!
+2023-05-24 16:08:05,723 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:08:11,606 INFO 127.0.0.1 - - [24/May/2023 16:08:11] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:08:11,632 INFO 127.0.0.1 - - [24/May/2023 16:08:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:08:13,391 INFO 127.0.0.1 - - [24/May/2023 16:08:13] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:08:13,411 INFO 127.0.0.1 - - [24/May/2023 16:08:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:08:13,573 INFO 127.0.0.1 - - [24/May/2023 16:08:13] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:08:13,598 INFO 127.0.0.1 - - [24/May/2023 16:08:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:08:36,076 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 16:08:36,076 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 16:08:36,077 INFO  * Restarting with stat
+2023-05-24 16:08:36,339 WARNING  * Debugger is active!
+2023-05-24 16:08:36,339 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:16:22,397 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:16:22,445 INFO  * Restarting with stat
+2023-05-24 16:16:22,705 WARNING  * Debugger is active!
+2023-05-24 16:16:22,705 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:31:02,824 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:31:02,870 INFO  * Restarting with stat
+2023-05-24 16:31:03,133 WARNING  * Debugger is active!
+2023-05-24 16:31:03,133 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:31:26,591 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:31:26,644 INFO  * Restarting with stat
+2023-05-24 16:31:26,917 WARNING  * Debugger is active!
+2023-05-24 16:31:26,917 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:35:23,595 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:35:23,642 INFO  * Restarting with stat
+2023-05-24 16:35:23,910 WARNING  * Debugger is active!
+2023-05-24 16:35:23,910 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:36:23,384 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:36:23,430 INFO  * Restarting with stat
+2023-05-24 16:36:23,710 WARNING  * Debugger is active!
+2023-05-24 16:36:23,711 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:36:26,328 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 16:36:26,328 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 16:36:26,328 INFO  * Restarting with stat
+2023-05-24 16:36:26,595 WARNING  * Debugger is active!
+2023-05-24 16:36:26,595 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:37:45,958 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 16:37:45,958 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 16:37:45,958 INFO  * Restarting with stat
+2023-05-24 16:37:46,221 WARNING  * Debugger is active!
+2023-05-24 16:37:46,221 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:37:53,189 INFO 127.0.0.1 - - [24/May/2023 16:37:53] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:37:53,211 INFO 127.0.0.1 - - [24/May/2023 16:37:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:37:56,759 INFO 127.0.0.1 - - [24/May/2023 16:37:56] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:37:56,789 INFO 127.0.0.1 - - [24/May/2023 16:37:56] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:01,938 INFO 127.0.0.1 - - [24/May/2023 16:38:01] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:01,964 INFO 127.0.0.1 - - [24/May/2023 16:38:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:03,101 INFO 127.0.0.1 - - [24/May/2023 16:38:03] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:03,125 INFO 127.0.0.1 - - [24/May/2023 16:38:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:03,587 INFO 127.0.0.1 - - [24/May/2023 16:38:03] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:03,608 INFO 127.0.0.1 - - [24/May/2023 16:38:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:03,784 INFO 127.0.0.1 - - [24/May/2023 16:38:03] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:03,810 INFO 127.0.0.1 - - [24/May/2023 16:38:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:03,986 INFO 127.0.0.1 - - [24/May/2023 16:38:03] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:04,010 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:04,227 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:04,256 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:04,586 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:04,608 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:04,778 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:04,804 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:04,946 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:04,972 INFO 127.0.0.1 - - [24/May/2023 16:38:04] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:05,123 INFO 127.0.0.1 - - [24/May/2023 16:38:05] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:05,153 INFO 127.0.0.1 - - [24/May/2023 16:38:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:38:05,604 INFO 127.0.0.1 - - [24/May/2023 16:38:05] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:38:05,630 INFO 127.0.0.1 - - [24/May/2023 16:38:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:39:16,999 INFO 127.0.0.1 - - [24/May/2023 16:39:16] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:39:17,035 INFO 127.0.0.1 - - [24/May/2023 16:39:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:39:18,249 INFO 127.0.0.1 - - [24/May/2023 16:39:18] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:39:18,286 INFO 127.0.0.1 - - [24/May/2023 16:39:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:39:18,694 INFO 127.0.0.1 - - [24/May/2023 16:39:18] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:39:18,724 INFO 127.0.0.1 - - [24/May/2023 16:39:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:39:19,773 INFO 127.0.0.1 - - [24/May/2023 16:39:19] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:39:19,808 INFO 127.0.0.1 - - [24/May/2023 16:39:19] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:39:33,950 INFO 127.0.0.1 - - [24/May/2023 16:39:33] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 16:39:33,960 INFO 127.0.0.1 - - [24/May/2023 16:39:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:41:05,360 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:41:05,378 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:41:05,543 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:41:05,558 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:41:05,727 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:41:05,754 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:41:05,894 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 16:41:05,907 INFO 127.0.0.1 - - [24/May/2023 16:41:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:41:07,117 INFO 127.0.0.1 - - [24/May/2023 16:41:07] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:41:07,157 INFO 127.0.0.1 - - [24/May/2023 16:41:07] "GET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-24 16:41:07,158 INFO 127.0.0.1 - - [24/May/2023 16:41:07] "GET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-24 16:41:07,183 INFO 127.0.0.1 - - [24/May/2023 16:41:07] "GET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-24 16:41:07,189 INFO 127.0.0.1 - - [24/May/2023 16:41:07] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:17,151 INFO 127.0.0.1 - - [24/May/2023 16:52:17] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:17,161 INFO 127.0.0.1 - - [24/May/2023 16:52:17] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:17,163 INFO 127.0.0.1 - - [24/May/2023 16:52:17] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:17,184 INFO 127.0.0.1 - - [24/May/2023 16:52:17] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:17,189 INFO 127.0.0.1 - - [24/May/2023 16:52:17] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:28,400 INFO 127.0.0.1 - - [24/May/2023 16:52:28] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:28,412 INFO 127.0.0.1 - - [24/May/2023 16:52:28] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:28,417 INFO 127.0.0.1 - - [24/May/2023 16:52:28] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:28,449 INFO 127.0.0.1 - - [24/May/2023 16:52:28] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:28,468 INFO 127.0.0.1 - - [24/May/2023 16:52:28] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:29,357 INFO 127.0.0.1 - - [24/May/2023 16:52:29] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:29,379 INFO 127.0.0.1 - - [24/May/2023 16:52:29] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:29,388 INFO 127.0.0.1 - - [24/May/2023 16:52:29] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:29,421 INFO 127.0.0.1 - - [24/May/2023 16:52:29] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:29,428 INFO 127.0.0.1 - - [24/May/2023 16:52:29] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:35,378 INFO 127.0.0.1 - - [24/May/2023 16:52:35] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:35,389 INFO 127.0.0.1 - - [24/May/2023 16:52:35] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:35,390 INFO 127.0.0.1 - - [24/May/2023 16:52:35] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:35,405 INFO 127.0.0.1 - - [24/May/2023 16:52:35] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:35,412 INFO 127.0.0.1 - - [24/May/2023 16:52:35] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,412 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:56,430 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,432 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,460 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,471 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,609 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:56,624 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,627 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,646 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,661 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,815 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:56,843 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,848 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,876 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,884 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,973 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:52:56,993 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:52:56,998 INFO 127.0.0.1 - - [24/May/2023 16:52:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:52:57,019 INFO 127.0.0.1 - - [24/May/2023 16:52:57] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:52:57,026 INFO 127.0.0.1 - - [24/May/2023 16:52:57] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:38,753 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:56:38,806 INFO  * Restarting with stat
+2023-05-24 16:56:39,070 WARNING  * Debugger is active!
+2023-05-24 16:56:39,070 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:56:42,113 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:42,129 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:42,133 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:42,148 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:42,153 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:42,603 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:42,633 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:42,636 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:42,664 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:42,674 INFO 127.0.0.1 - - [24/May/2023 16:56:42] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,032 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:43,050 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,051 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,090 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,105 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,237 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:43,257 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,261 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,280 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,300 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,386 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:43,400 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,406 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,418 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,423 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,585 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:43,609 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,618 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,649 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,656 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,785 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:43,812 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,818 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,848 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,855 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,956 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 16:56:43,981 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 16:56:43,984 INFO 127.0.0.1 - - [24/May/2023 16:56:43] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 16:56:44,019 INFO 127.0.0.1 - - [24/May/2023 16:56:44] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:44,028 INFO 127.0.0.1 - - [24/May/2023 16:56:44] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 16:56:55,174 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 16:56:55,227 INFO  * Restarting with stat
+2023-05-24 16:56:55,498 WARNING  * Debugger is active!
+2023-05-24 16:56:55,499 INFO  * Debugger PIN: 330-407-437
+2023-05-24 16:57:30,006 INFO 127.0.0.1 - - [24/May/2023 16:57:30] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 16:57:30,013 INFO 127.0.0.1 - - [24/May/2023 16:57:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:57:30,165 INFO 127.0.0.1 - - [24/May/2023 16:57:30] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 16:57:30,175 INFO 127.0.0.1 - - [24/May/2023 16:57:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:57:30,304 INFO 127.0.0.1 - - [24/May/2023 16:57:30] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 16:57:30,312 INFO 127.0.0.1 - - [24/May/2023 16:57:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:58:09,204 INFO 127.0.0.1 - - [24/May/2023 16:58:09] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 16:58:09,222 INFO 127.0.0.1 - - [24/May/2023 16:58:09] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:58:19,047 INFO 127.0.0.1 - - [24/May/2023 16:58:19] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 16:58:19,062 INFO 127.0.0.1 - - [24/May/2023 16:58:19] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:58:30,816 INFO 127.0.0.1 - - [24/May/2023 16:58:30] "GET /user/signup HTTP/1.1" 200 -
+2023-05-24 16:58:30,832 INFO 127.0.0.1 - - [24/May/2023 16:58:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 16:59:01,697 INFO 127.0.0.1 - - [24/May/2023 16:59:01] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 16:59:01,717 INFO 127.0.0.1 - - [24/May/2023 16:59:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:06:03,543 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:06:03,591 INFO  * Restarting with stat
+2023-05-24 17:06:03,855 WARNING  * Debugger is active!
+2023-05-24 17:06:03,856 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:06:48,165 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 17:06:48,165 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 17:06:48,165 INFO  * Restarting with stat
+2023-05-24 17:06:48,430 WARNING  * Debugger is active!
+2023-05-24 17:06:48,430 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:06:56,475 INFO 127.0.0.1 - - [24/May/2023 17:06:56] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:06:56,484 INFO 127.0.0.1 - - [24/May/2023 17:06:56] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:07:17,987 INFO 127.0.0.1 - - [24/May/2023 17:07:17] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:07:18,018 INFO 127.0.0.1 - - [24/May/2023 17:07:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:36,224 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 17:08:36,224 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 17:08:36,224 INFO  * Restarting with stat
+2023-05-24 17:08:36,487 WARNING  * Debugger is active!
+2023-05-24 17:08:36,487 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:08:40,021 INFO 127.0.0.1 - - [24/May/2023 17:08:40] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:40,028 INFO 127.0.0.1 - - [24/May/2023 17:08:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:40,551 INFO 127.0.0.1 - - [24/May/2023 17:08:40] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:40,567 INFO 127.0.0.1 - - [24/May/2023 17:08:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:41,104 INFO 127.0.0.1 - - [24/May/2023 17:08:41] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:41,118 INFO 127.0.0.1 - - [24/May/2023 17:08:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:41,574 INFO 127.0.0.1 - - [24/May/2023 17:08:41] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:41,594 INFO 127.0.0.1 - - [24/May/2023 17:08:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:49,809 INFO 127.0.0.1 - - [24/May/2023 17:08:49] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:49,815 INFO 127.0.0.1 - - [24/May/2023 17:08:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:50,177 INFO 127.0.0.1 - - [24/May/2023 17:08:50] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:50,192 INFO 127.0.0.1 - - [24/May/2023 17:08:50] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:50,359 INFO 127.0.0.1 - - [24/May/2023 17:08:50] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:50,372 INFO 127.0.0.1 - - [24/May/2023 17:08:50] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:50,534 INFO 127.0.0.1 - - [24/May/2023 17:08:50] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:50,551 INFO 127.0.0.1 - - [24/May/2023 17:08:50] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:08:51,128 INFO 127.0.0.1 - - [24/May/2023 17:08:51] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:08:51,145 INFO 127.0.0.1 - - [24/May/2023 17:08:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:11,312 INFO 127.0.0.1 - - [24/May/2023 17:09:11] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:11,324 INFO 127.0.0.1 - - [24/May/2023 17:09:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:11,502 INFO 127.0.0.1 - - [24/May/2023 17:09:11] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:11,517 INFO 127.0.0.1 - - [24/May/2023 17:09:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:11,743 INFO 127.0.0.1 - - [24/May/2023 17:09:11] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:11,748 INFO 127.0.0.1 - - [24/May/2023 17:09:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:12,007 INFO 127.0.0.1 - - [24/May/2023 17:09:12] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:12,023 INFO 127.0.0.1 - - [24/May/2023 17:09:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:12,245 INFO 127.0.0.1 - - [24/May/2023 17:09:12] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:12,259 INFO 127.0.0.1 - - [24/May/2023 17:09:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:25,780 INFO 127.0.0.1 - - [24/May/2023 17:09:25] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:25,798 INFO 127.0.0.1 - - [24/May/2023 17:09:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:25,993 INFO 127.0.0.1 - - [24/May/2023 17:09:25] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:26,001 INFO 127.0.0.1 - - [24/May/2023 17:09:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:26,193 INFO 127.0.0.1 - - [24/May/2023 17:09:26] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:26,220 INFO 127.0.0.1 - - [24/May/2023 17:09:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:26,381 INFO 127.0.0.1 - - [24/May/2023 17:09:26] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:26,399 INFO 127.0.0.1 - - [24/May/2023 17:09:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:26,559 INFO 127.0.0.1 - - [24/May/2023 17:09:26] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:26,573 INFO 127.0.0.1 - - [24/May/2023 17:09:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:33,522 INFO 127.0.0.1 - - [24/May/2023 17:09:33] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:33,539 INFO 127.0.0.1 - - [24/May/2023 17:09:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:33,739 INFO 127.0.0.1 - - [24/May/2023 17:09:33] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:33,749 INFO 127.0.0.1 - - [24/May/2023 17:09:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:33,943 INFO 127.0.0.1 - - [24/May/2023 17:09:33] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:33,950 INFO 127.0.0.1 - - [24/May/2023 17:09:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:34,135 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:34,141 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:34,336 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:34,342 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:34,474 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:34,480 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:34,704 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:09:34,709 INFO 127.0.0.1 - - [24/May/2023 17:09:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:09:55,552 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 17:09:55,574 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:09:55,575 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:09:55,604 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:55,617 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:55,757 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 17:09:55,786 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:09:55,792 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:09:55,809 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:55,816 INFO 127.0.0.1 - - [24/May/2023 17:09:55] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,118 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 17:09:56,144 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,145 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,175 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,184 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,306 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 17:09:56,317 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,320 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,339 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,346 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,469 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 17:09:56,493 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,495 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,518 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,522 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,587 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[35m[1mGET /user/update_user HTTP/1.1[0m" 500 -
+2023-05-24 17:09:56,599 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,601 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,631 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:09:56,643 INFO 127.0.0.1 - - [24/May/2023 17:09:56] "[36mGET /user/update_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:10:01,830 INFO 127.0.0.1 - - [24/May/2023 17:10:01] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:01,848 INFO 127.0.0.1 - - [24/May/2023 17:10:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:01,976 INFO 127.0.0.1 - - [24/May/2023 17:10:01] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:01,993 INFO 127.0.0.1 - - [24/May/2023 17:10:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:02,158 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:02,165 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:02,341 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:02,358 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:02,520 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:02,531 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:02,681 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:02,707 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:02,823 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:02,856 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:02,969 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:02,994 INFO 127.0.0.1 - - [24/May/2023 17:10:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:11,054 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 17:10:11,054 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 17:10:11,055 INFO  * Restarting with stat
+2023-05-24 17:10:11,324 WARNING  * Debugger is active!
+2023-05-24 17:10:11,324 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:10:12,783 INFO 127.0.0.1 - - [24/May/2023 17:10:12] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:12,791 INFO 127.0.0.1 - - [24/May/2023 17:10:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:12,937 INFO 127.0.0.1 - - [24/May/2023 17:10:12] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:12,959 INFO 127.0.0.1 - - [24/May/2023 17:10:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:13,085 INFO 127.0.0.1 - - [24/May/2023 17:10:13] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:13,102 INFO 127.0.0.1 - - [24/May/2023 17:10:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:13,209 INFO 127.0.0.1 - - [24/May/2023 17:10:13] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:13,226 INFO 127.0.0.1 - - [24/May/2023 17:10:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:10:13,390 INFO 127.0.0.1 - - [24/May/2023 17:10:13] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:10:13,400 INFO 127.0.0.1 - - [24/May/2023 17:10:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:10,303 INFO 127.0.0.1 - - [24/May/2023 17:12:10] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:10,309 INFO 127.0.0.1 - - [24/May/2023 17:12:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:10,822 INFO 127.0.0.1 - - [24/May/2023 17:12:10] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:10,836 INFO 127.0.0.1 - - [24/May/2023 17:12:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:11,027 INFO 127.0.0.1 - - [24/May/2023 17:12:11] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:11,043 INFO 127.0.0.1 - - [24/May/2023 17:12:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:30,189 INFO 127.0.0.1 - - [24/May/2023 17:12:30] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:30,194 INFO 127.0.0.1 - - [24/May/2023 17:12:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:31,120 INFO 127.0.0.1 - - [24/May/2023 17:12:31] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:31,137 INFO 127.0.0.1 - - [24/May/2023 17:12:31] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:31,591 INFO 127.0.0.1 - - [24/May/2023 17:12:31] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:31,597 INFO 127.0.0.1 - - [24/May/2023 17:12:31] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:40,313 INFO 127.0.0.1 - - [24/May/2023 17:12:40] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:40,332 INFO 127.0.0.1 - - [24/May/2023 17:12:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:40,511 INFO 127.0.0.1 - - [24/May/2023 17:12:40] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:40,526 INFO 127.0.0.1 - - [24/May/2023 17:12:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:40,988 INFO 127.0.0.1 - - [24/May/2023 17:12:40] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:40,998 INFO 127.0.0.1 - - [24/May/2023 17:12:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:41,372 INFO 127.0.0.1 - - [24/May/2023 17:12:41] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:41,385 INFO 127.0.0.1 - - [24/May/2023 17:12:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:48,220 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:48,238 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:48,407 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:48,413 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:48,666 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:48,672 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:48,932 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:48,944 INFO 127.0.0.1 - - [24/May/2023 17:12:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:49,231 INFO 127.0.0.1 - - [24/May/2023 17:12:49] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:49,251 INFO 127.0.0.1 - - [24/May/2023 17:12:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:49,488 INFO 127.0.0.1 - - [24/May/2023 17:12:49] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:49,493 INFO 127.0.0.1 - - [24/May/2023 17:12:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:49,704 INFO 127.0.0.1 - - [24/May/2023 17:12:49] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:49,714 INFO 127.0.0.1 - - [24/May/2023 17:12:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:54,693 INFO 127.0.0.1 - - [24/May/2023 17:12:54] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:54,711 INFO 127.0.0.1 - - [24/May/2023 17:12:54] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:54,880 INFO 127.0.0.1 - - [24/May/2023 17:12:54] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:54,887 INFO 127.0.0.1 - - [24/May/2023 17:12:54] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:55,065 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:55,071 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:55,247 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:55,254 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:55,439 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:55,444 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:55,600 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:55,606 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:55,752 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:55,765 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:12:55,863 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:12:55,878 INFO 127.0.0.1 - - [24/May/2023 17:12:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:13:09,752 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:13:09,800 INFO  * Restarting with stat
+2023-05-24 17:13:10,062 WARNING  * Debugger is active!
+2023-05-24 17:13:10,063 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:13:14,765 INFO 127.0.0.1 - - [24/May/2023 17:13:14] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:13:14,782 INFO 127.0.0.1 - - [24/May/2023 17:13:14] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:13:17,944 INFO 127.0.0.1 - - [24/May/2023 17:13:17] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:13:17,975 INFO 127.0.0.1 - - [24/May/2023 17:13:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:18:00,812 INFO 127.0.0.1 - - [24/May/2023 17:18:00] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:18:00,833 INFO 127.0.0.1 - - [24/May/2023 17:18:00] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:18:32,027 INFO 127.0.0.1 - - [24/May/2023 17:18:32] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:18:32,072 INFO 127.0.0.1 - - [24/May/2023 17:18:32] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:20:40,974 INFO 127.0.0.1 - - [24/May/2023 17:20:40] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:20:41,009 INFO 127.0.0.1 - - [24/May/2023 17:20:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:22:35,962 INFO 127.0.0.1 - - [24/May/2023 17:22:35] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:22:35,994 INFO 127.0.0.1 - - [24/May/2023 17:22:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:22:36,422 INFO 127.0.0.1 - - [24/May/2023 17:22:36] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:22:36,449 INFO 127.0.0.1 - - [24/May/2023 17:22:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:22:36,622 INFO 127.0.0.1 - - [24/May/2023 17:22:36] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:22:36,642 INFO 127.0.0.1 - - [24/May/2023 17:22:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:22:36,853 INFO 127.0.0.1 - - [24/May/2023 17:22:36] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:22:36,877 INFO 127.0.0.1 - - [24/May/2023 17:22:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:23:45,713 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:23:45,774 INFO  * Restarting with stat
+2023-05-24 17:23:46,043 WARNING  * Debugger is active!
+2023-05-24 17:23:46,043 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:23:49,690 INFO 127.0.0.1 - - [24/May/2023 17:23:49] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:23:49,699 INFO 127.0.0.1 - - [24/May/2023 17:23:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:23:50,426 INFO 127.0.0.1 - - [24/May/2023 17:23:50] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:23:50,444 INFO 127.0.0.1 - - [24/May/2023 17:23:50] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:24:21,224 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:24:21,280 INFO  * Restarting with stat
+2023-05-24 17:24:21,560 WARNING  * Debugger is active!
+2023-05-24 17:24:21,560 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:26:09,977 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:26:10,026 INFO  * Restarting with stat
+2023-05-24 17:26:10,297 WARNING  * Debugger is active!
+2023-05-24 17:26:10,297 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:26:32,720 INFO 127.0.0.1 - - [24/May/2023 17:26:32] "GET /user/update_user HTTP/1.1" 200 -
+2023-05-24 17:26:32,742 INFO 127.0.0.1 - - [24/May/2023 17:26:32] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:27:27,095 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:27:27,144 INFO  * Restarting with stat
+2023-05-24 17:27:27,408 WARNING  * Debugger is active!
+2023-05-24 17:27:27,408 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:28:28,918 INFO 127.0.0.1 - - [24/May/2023 17:28:28] "[33mGET /user/update_user HTTP/1.1[0m" 404 -
+2023-05-24 17:28:32,621 INFO 127.0.0.1 - - [24/May/2023 17:28:32] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 17:28:32,652 INFO 127.0.0.1 - - [24/May/2023 17:28:32] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:28:32,654 INFO 127.0.0.1 - - [24/May/2023 17:28:32] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:28:32,666 INFO 127.0.0.1 - - [24/May/2023 17:28:32] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:28:32,673 INFO 127.0.0.1 - - [24/May/2023 17:28:32] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:28:53,498 INFO 127.0.0.1 - - [24/May/2023 17:28:53] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 17:28:53,514 INFO 127.0.0.1 - - [24/May/2023 17:28:53] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:28:53,517 INFO 127.0.0.1 - - [24/May/2023 17:28:53] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:28:53,529 INFO 127.0.0.1 - - [24/May/2023 17:28:53] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:28:53,536 INFO 127.0.0.1 - - [24/May/2023 17:28:53] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:28:53,999 INFO 127.0.0.1 - - [24/May/2023 17:28:53] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 17:28:54,028 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:28:54,030 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:28:54,050 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:28:54,057 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:28:54,186 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 17:28:54,218 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:28:54,223 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:28:54,247 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:28:54,254 INFO 127.0.0.1 - - [24/May/2023 17:28:54] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:46:12,561 INFO 127.0.0.1 - - [24/May/2023 17:46:12] "[35m[1mGET /user/admin_dashboard HTTP/1.1[0m" 500 -
+2023-05-24 17:46:12,593 INFO 127.0.0.1 - - [24/May/2023 17:46:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:46:12,601 INFO 127.0.0.1 - - [24/May/2023 17:46:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:46:12,625 INFO 127.0.0.1 - - [24/May/2023 17:46:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:46:12,634 INFO 127.0.0.1 - - [24/May/2023 17:46:12] "[36mGET /user/admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:47:18,054 INFO 127.0.0.1 - - [24/May/2023 17:47:18] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:47:18,089 INFO 127.0.0.1 - - [24/May/2023 17:47:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:47:21,000 INFO 127.0.0.1 - - [24/May/2023 17:47:21] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:47:21,030 INFO 127.0.0.1 - - [24/May/2023 17:47:21] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:47:23,181 INFO 127.0.0.1 - - [24/May/2023 17:47:23] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 17:47:23,220 INFO 127.0.0.1 - - [24/May/2023 17:47:23] "GET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-24 17:47:23,230 INFO 127.0.0.1 - - [24/May/2023 17:47:23] "GET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-24 17:47:23,252 INFO 127.0.0.1 - - [24/May/2023 17:47:23] "GET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-24 17:47:23,264 INFO 127.0.0.1 - - [24/May/2023 17:47:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:47:38,242 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:47:38,293 INFO  * Restarting with stat
+2023-05-24 17:47:38,559 WARNING  * Debugger is active!
+2023-05-24 17:47:38,560 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:47:44,694 INFO 127.0.0.1 - - [24/May/2023 17:47:44] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:47:44,717 INFO 127.0.0.1 - - [24/May/2023 17:47:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:47:59,984 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:48:00,038 INFO  * Restarting with stat
+2023-05-24 17:48:00,306 WARNING  * Debugger is active!
+2023-05-24 17:48:00,306 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:48:12,107 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:48:12,159 INFO  * Restarting with stat
+2023-05-24 17:48:12,427 WARNING  * Debugger is active!
+2023-05-24 17:48:12,427 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:48:19,989 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:48:20,047 INFO  * Restarting with stat
+2023-05-24 17:48:20,320 WARNING  * Debugger is active!
+2023-05-24 17:48:20,321 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:48:22,164 INFO 127.0.0.1 - - [24/May/2023 17:48:22] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 17:48:22,178 INFO 127.0.0.1 - - [24/May/2023 17:48:22] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:48:22,180 INFO 127.0.0.1 - - [24/May/2023 17:48:22] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:48:22,189 INFO 127.0.0.1 - - [24/May/2023 17:48:22] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:48:22,195 INFO 127.0.0.1 - - [24/May/2023 17:48:22] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:48:23,760 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 17:48:23,790 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:48:23,792 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:48:23,825 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:48:23,833 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:48:23,943 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 17:48:23,968 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:48:23,972 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:48:23,994 INFO 127.0.0.1 - - [24/May/2023 17:48:23] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:48:24,000 INFO 127.0.0.1 - - [24/May/2023 17:48:24] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:50:48,143 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:50:48,194 INFO  * Restarting with stat
+2023-05-24 17:50:48,462 WARNING  * Debugger is active!
+2023-05-24 17:50:48,462 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:51:51,665 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 17:51:51,665 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 17:51:51,665 INFO  * Restarting with stat
+2023-05-24 17:51:51,948 WARNING  * Debugger is active!
+2023-05-24 17:51:51,948 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:51:55,146 INFO 127.0.0.1 - - [24/May/2023 17:51:55] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:51:55,153 INFO 127.0.0.1 - - [24/May/2023 17:51:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:52:15,825 INFO 127.0.0.1 - - [24/May/2023 17:52:15] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:52:15,854 INFO 127.0.0.1 - - [24/May/2023 17:52:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:52:34,345 INFO 127.0.0.1 - - [24/May/2023 17:52:34] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:52:34,364 INFO 127.0.0.1 - - [24/May/2023 17:52:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:53:06,521 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:53:06,581 INFO  * Restarting with stat
+2023-05-24 17:53:06,851 WARNING  * Debugger is active!
+2023-05-24 17:53:06,852 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:53:27,425 INFO 127.0.0.1 - - [24/May/2023 17:53:27] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:53:27,454 INFO 127.0.0.1 - - [24/May/2023 17:53:27] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:53:28,909 INFO 127.0.0.1 - - [24/May/2023 17:53:28] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:53:28,946 INFO 127.0.0.1 - - [24/May/2023 17:53:28] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:53:48,147 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 17:53:48,147 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 17:53:48,147 INFO  * Restarting with stat
+2023-05-24 17:53:48,419 WARNING  * Debugger is active!
+2023-05-24 17:53:48,419 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:53:52,318 INFO 127.0.0.1 - - [24/May/2023 17:53:52] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:53:52,349 INFO 127.0.0.1 - - [24/May/2023 17:53:52] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:54:58,731 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:54:58,786 INFO  * Restarting with stat
+2023-05-24 17:55:02,404 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 17:55:02,404 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 17:55:02,404 INFO  * Restarting with stat
+2023-05-24 17:55:02,671 WARNING  * Debugger is active!
+2023-05-24 17:55:02,671 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:55:07,119 INFO 127.0.0.1 - - [24/May/2023 17:55:07] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 17:55:07,168 INFO 127.0.0.1 - - [24/May/2023 17:55:07] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 17:55:07,169 INFO 127.0.0.1 - - [24/May/2023 17:55:07] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 17:55:07,187 INFO 127.0.0.1 - - [24/May/2023 17:55:07] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:55:07,204 INFO 127.0.0.1 - - [24/May/2023 17:55:07] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 17:55:17,716 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:55:17,766 INFO  * Restarting with stat
+2023-05-24 17:55:18,036 WARNING  * Debugger is active!
+2023-05-24 17:55:18,036 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:55:20,266 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:55:20,322 INFO  * Restarting with stat
+2023-05-24 17:55:20,599 WARNING  * Debugger is active!
+2023-05-24 17:55:20,600 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:55:23,589 INFO 127.0.0.1 - - [24/May/2023 17:55:23] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:55:23,621 INFO 127.0.0.1 - - [24/May/2023 17:55:23] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:55:35,685 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:55:35,744 INFO  * Restarting with stat
+2023-05-24 17:55:36,014 WARNING  * Debugger is active!
+2023-05-24 17:55:36,014 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:55:39,565 INFO 127.0.0.1 - - [24/May/2023 17:55:39] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:55:39,595 INFO 127.0.0.1 - - [24/May/2023 17:55:39] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:56:19,846 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:56:19,901 INFO  * Restarting with stat
+2023-05-24 17:56:20,171 WARNING  * Debugger is active!
+2023-05-24 17:56:20,171 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:56:31,996 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 17:56:32,048 INFO  * Restarting with stat
+2023-05-24 17:56:35,573 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 17:56:35,573 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 17:56:35,573 INFO  * Restarting with stat
+2023-05-24 17:56:35,873 WARNING  * Debugger is active!
+2023-05-24 17:56:35,873 INFO  * Debugger PIN: 330-407-437
+2023-05-24 17:56:38,302 INFO 127.0.0.1 - - [24/May/2023 17:56:38] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:56:38,312 INFO 127.0.0.1 - - [24/May/2023 17:56:38] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:56:39,442 INFO 127.0.0.1 - - [24/May/2023 17:56:39] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 17:56:39,470 INFO 127.0.0.1 - - [24/May/2023 17:56:39] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 17:56:45,476 INFO 127.0.0.1 - - [24/May/2023 17:56:45] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 17:56:45,506 INFO 127.0.0.1 - - [24/May/2023 17:56:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:04:49,265 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:04:49,313 INFO  * Restarting with stat
+2023-05-24 18:04:49,576 WARNING  * Debugger is active!
+2023-05-24 18:04:49,576 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:04:56,038 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:04:56,086 INFO  * Restarting with stat
+2023-05-24 18:04:56,351 WARNING  * Debugger is active!
+2023-05-24 18:04:56,351 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:05:02,537 INFO 127.0.0.1 - - [24/May/2023 18:05:02] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:05:02,554 INFO 127.0.0.1 - - [24/May/2023 18:05:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:05:02,935 INFO 127.0.0.1 - - [24/May/2023 18:05:02] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:05:02,963 INFO 127.0.0.1 - - [24/May/2023 18:05:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:05:03,114 INFO 127.0.0.1 - - [24/May/2023 18:05:03] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:05:03,146 INFO 127.0.0.1 - - [24/May/2023 18:05:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:05:03,333 INFO 127.0.0.1 - - [24/May/2023 18:05:03] "POST /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:05:03,354 INFO 127.0.0.1 - - [24/May/2023 18:05:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:05:04,762 INFO 127.0.0.1 - - [24/May/2023 18:05:04] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:05:04,804 INFO 127.0.0.1 - - [24/May/2023 18:05:04] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:05:04,804 INFO 127.0.0.1 - - [24/May/2023 18:05:04] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:05:04,818 INFO 127.0.0.1 - - [24/May/2023 18:05:04] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:05:04,829 INFO 127.0.0.1 - - [24/May/2023 18:05:04] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:06:17,371 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:06:17,420 INFO  * Restarting with stat
+2023-05-24 18:06:17,685 WARNING  * Debugger is active!
+2023-05-24 18:06:17,685 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:06:19,763 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:06:19,763 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:06:19,763 INFO  * Restarting with stat
+2023-05-24 18:06:20,030 WARNING  * Debugger is active!
+2023-05-24 18:06:20,031 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:06:23,929 INFO 127.0.0.1 - - [24/May/2023 18:06:23] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:06:23,953 INFO 127.0.0.1 - - [24/May/2023 18:06:23] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:06:25,716 INFO 127.0.0.1 - - [24/May/2023 18:06:25] "[32mGET /user/update_user/1 HTTP/1.1[0m" 302 -
+2023-05-24 18:06:25,729 INFO 127.0.0.1 - - [24/May/2023 18:06:25] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:06:25,759 INFO 127.0.0.1 - - [24/May/2023 18:06:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:06:30,043 INFO 127.0.0.1 - - [24/May/2023 18:06:30] "[32mGET /user/update_user/1 HTTP/1.1[0m" 302 -
+2023-05-24 18:06:30,052 INFO 127.0.0.1 - - [24/May/2023 18:06:30] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:06:30,096 INFO 127.0.0.1 - - [24/May/2023 18:06:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:06:58,441 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:06:58,491 INFO  * Restarting with stat
+2023-05-24 18:06:58,775 WARNING  * Debugger is active!
+2023-05-24 18:06:58,775 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:06:59,754 INFO 127.0.0.1 - - [24/May/2023 18:06:59] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:06:59,763 INFO 127.0.0.1 - - [24/May/2023 18:06:59] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:07:00,363 INFO 127.0.0.1 - - [24/May/2023 18:07:00] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:07:00,390 INFO 127.0.0.1 - - [24/May/2023 18:07:00] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:07:01,496 INFO 127.0.0.1 - - [24/May/2023 18:07:01] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:07:01,528 INFO 127.0.0.1 - - [24/May/2023 18:07:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:07:48,483 INFO 127.0.0.1 - - [24/May/2023 18:07:48] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:07:48,514 INFO 127.0.0.1 - - [24/May/2023 18:07:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:07:49,632 INFO 127.0.0.1 - - [24/May/2023 18:07:49] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:07:49,674 INFO 127.0.0.1 - - [24/May/2023 18:07:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:07:58,021 INFO 127.0.0.1 - - [24/May/2023 18:07:58] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:07:58,054 INFO 127.0.0.1 - - [24/May/2023 18:07:58] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:07:58,384 INFO 127.0.0.1 - - [24/May/2023 18:07:58] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:07:58,410 INFO 127.0.0.1 - - [24/May/2023 18:07:58] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:07:58,596 INFO 127.0.0.1 - - [24/May/2023 18:07:58] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:07:58,655 INFO 127.0.0.1 - - [24/May/2023 18:07:58] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:08:06,608 INFO 127.0.0.1 - - [24/May/2023 18:08:06] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:08:06,623 INFO 127.0.0.1 - - [24/May/2023 18:08:06] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:08:07,100 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:08:07,119 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:08:07,416 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:08:07,426 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:08:07,626 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:08:07,636 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:08:07,827 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:08:07,834 INFO 127.0.0.1 - - [24/May/2023 18:08:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:08:18,071 INFO 127.0.0.1 - - [24/May/2023 18:08:18] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:08:18,085 INFO 127.0.0.1 - - [24/May/2023 18:08:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:08:18,577 INFO 127.0.0.1 - - [24/May/2023 18:08:18] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:08:18,607 INFO 127.0.0.1 - - [24/May/2023 18:08:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:09:40,584 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:09:40,631 INFO  * Restarting with stat
+2023-05-24 18:09:40,895 WARNING  * Debugger is active!
+2023-05-24 18:09:40,895 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:09:45,901 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:09:45,901 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:09:45,902 INFO  * Restarting with stat
+2023-05-24 18:09:46,170 WARNING  * Debugger is active!
+2023-05-24 18:09:46,171 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:09:47,724 INFO 127.0.0.1 - - [24/May/2023 18:09:47] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:09:47,743 INFO 127.0.0.1 - - [24/May/2023 18:09:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:09:47,745 INFO 127.0.0.1 - - [24/May/2023 18:09:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:09:47,756 INFO 127.0.0.1 - - [24/May/2023 18:09:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:09:47,762 INFO 127.0.0.1 - - [24/May/2023 18:09:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:11:18,639 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:11:18,686 INFO  * Restarting with stat
+2023-05-24 18:11:18,948 WARNING  * Debugger is active!
+2023-05-24 18:11:18,948 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:11:22,376 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:11:22,376 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:11:22,376 INFO  * Restarting with stat
+2023-05-24 18:11:22,642 WARNING  * Debugger is active!
+2023-05-24 18:11:22,643 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:11:31,222 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:11:31,272 INFO  * Restarting with stat
+2023-05-24 18:11:31,558 WARNING  * Debugger is active!
+2023-05-24 18:11:31,558 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:11:33,218 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:11:33,218 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:11:33,218 INFO  * Restarting with stat
+2023-05-24 18:11:33,489 WARNING  * Debugger is active!
+2023-05-24 18:11:33,490 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:11:35,380 INFO 127.0.0.1 - - [24/May/2023 18:11:35] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:11:35,394 INFO 127.0.0.1 - - [24/May/2023 18:11:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:11:35,966 INFO 127.0.0.1 - - [24/May/2023 18:11:35] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:11:35,987 INFO 127.0.0.1 - - [24/May/2023 18:11:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:11:36,164 INFO 127.0.0.1 - - [24/May/2023 18:11:36] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:11:36,190 INFO 127.0.0.1 - - [24/May/2023 18:11:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:11:36,362 INFO 127.0.0.1 - - [24/May/2023 18:11:36] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:11:36,368 INFO 127.0.0.1 - - [24/May/2023 18:11:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:01,031 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:01,051 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:01,234 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:01,240 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:01,426 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:01,436 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:01,626 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:01,633 INFO 127.0.0.1 - - [24/May/2023 18:12:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:02,306 INFO 127.0.0.1 - - [24/May/2023 18:12:02] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:02,313 INFO 127.0.0.1 - - [24/May/2023 18:12:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:02,586 INFO 127.0.0.1 - - [24/May/2023 18:12:02] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:02,604 INFO 127.0.0.1 - - [24/May/2023 18:12:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:02,806 INFO 127.0.0.1 - - [24/May/2023 18:12:02] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:02,827 INFO 127.0.0.1 - - [24/May/2023 18:12:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:03,000 INFO 127.0.0.1 - - [24/May/2023 18:12:03] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:03,042 INFO 127.0.0.1 - - [24/May/2023 18:12:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:03,185 INFO 127.0.0.1 - - [24/May/2023 18:12:03] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:03,195 INFO 127.0.0.1 - - [24/May/2023 18:12:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:16,984 INFO 127.0.0.1 - - [24/May/2023 18:12:16] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:17,001 INFO 127.0.0.1 - - [24/May/2023 18:12:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:17,163 INFO 127.0.0.1 - - [24/May/2023 18:12:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:17,168 INFO 127.0.0.1 - - [24/May/2023 18:12:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:17,339 INFO 127.0.0.1 - - [24/May/2023 18:12:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:12:17,348 INFO 127.0.0.1 - - [24/May/2023 18:12:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:12:46,996 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:12:47,045 INFO  * Restarting with stat
+2023-05-24 18:12:47,317 WARNING  * Debugger is active!
+2023-05-24 18:12:47,317 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:13:11,832 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:13:11,893 INFO  * Restarting with stat
+2023-05-24 18:13:12,178 WARNING  * Debugger is active!
+2023-05-24 18:13:12,179 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:13:13,363 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:13:13,415 INFO  * Restarting with stat
+2023-05-24 18:13:13,684 WARNING  * Debugger is active!
+2023-05-24 18:13:13,684 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:13:36,217 INFO 127.0.0.1 - - [24/May/2023 18:13:36] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:13:36,230 INFO 127.0.0.1 - - [24/May/2023 18:13:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:13:36,935 INFO 127.0.0.1 - - [24/May/2023 18:13:36] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:13:36,954 INFO 127.0.0.1 - - [24/May/2023 18:13:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:13:53,697 INFO 127.0.0.1 - - [24/May/2023 18:13:53] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:13:53,726 INFO 127.0.0.1 - - [24/May/2023 18:13:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:14:00,040 INFO 127.0.0.1 - - [24/May/2023 18:14:00] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:14:00,076 INFO 127.0.0.1 - - [24/May/2023 18:14:00] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:15:45,508 INFO 127.0.0.1 - - [24/May/2023 18:15:45] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:15:45,527 INFO 127.0.0.1 - - [24/May/2023 18:15:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:15:46,139 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:15:46,161 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:15:46,315 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:15:46,348 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:15:46,521 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:15:46,538 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:15:46,709 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:15:46,723 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:15:46,929 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:15:46,939 INFO 127.0.0.1 - - [24/May/2023 18:15:46] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:16:02,124 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:02,161 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,162 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,186 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,202 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,313 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:02,321 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,321 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,336 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,345 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,934 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:02,962 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,965 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:02,999 INFO 127.0.0.1 - - [24/May/2023 18:16:02] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,014 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,121 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:03,152 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,155 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,170 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,179 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,332 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:03,360 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,362 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,375 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,384 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,512 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:03,540 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,546 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,561 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,569 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,714 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:03,743 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,746 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,764 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,776 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,880 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:16:03,901 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,905 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,926 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:03,937 INFO 127.0.0.1 - - [24/May/2023 18:16:03] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:16:11,831 INFO 127.0.0.1 - - [24/May/2023 18:16:11] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:16:11,849 INFO 127.0.0.1 - - [24/May/2023 18:16:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:16:11,986 INFO 127.0.0.1 - - [24/May/2023 18:16:11] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:16:12,009 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:16:12,162 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:16:12,184 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:16:12,340 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:16:12,349 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:16:12,510 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:16:12,529 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:16:12,675 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:16:12,705 INFO 127.0.0.1 - - [24/May/2023 18:16:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:16:23,521 INFO 127.0.0.1 - - [24/May/2023 18:16:23] "GET /user/update_user/2 HTTP/1.1" 200 -
+2023-05-24 18:16:23,563 INFO 127.0.0.1 - - [24/May/2023 18:16:23] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:17:02,946 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:17:02,946 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:17:02,947 INFO  * Restarting with stat
+2023-05-24 18:17:03,212 WARNING  * Debugger is active!
+2023-05-24 18:17:03,212 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:17:07,513 INFO 127.0.0.1 - - [24/May/2023 18:17:07] "GET /user/update_user/2 HTTP/1.1" 200 -
+2023-05-24 18:17:07,538 INFO 127.0.0.1 - - [24/May/2023 18:17:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:19:29,159 INFO 127.0.0.1 - - [24/May/2023 18:19:29] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:19:29,199 INFO 127.0.0.1 - - [24/May/2023 18:19:29] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:14,406 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:20:14,458 INFO  * Restarting with stat
+2023-05-24 18:20:14,731 WARNING  * Debugger is active!
+2023-05-24 18:20:14,732 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:20:16,254 INFO 127.0.0.1 - - [24/May/2023 18:20:16] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:16,267 INFO 127.0.0.1 - - [24/May/2023 18:20:16] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:16,895 INFO 127.0.0.1 - - [24/May/2023 18:20:16] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:16,922 INFO 127.0.0.1 - - [24/May/2023 18:20:16] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:17,093 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:17,116 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:17,271 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:17,285 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:17,455 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:17,478 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:17,620 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:17,641 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:17,771 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:17,780 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:17,963 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:17,968 INFO 127.0.0.1 - - [24/May/2023 18:20:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:18,083 INFO 127.0.0.1 - - [24/May/2023 18:20:18] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:18,094 INFO 127.0.0.1 - - [24/May/2023 18:20:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:34,075 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:20:34,124 INFO  * Restarting with stat
+2023-05-24 18:20:34,390 WARNING  * Debugger is active!
+2023-05-24 18:20:34,391 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:20:36,649 INFO 127.0.0.1 - - [24/May/2023 18:20:36] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:20:36,657 INFO 127.0.0.1 - - [24/May/2023 18:20:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:20:51,567 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:20:51,618 INFO  * Restarting with stat
+2023-05-24 18:20:51,885 WARNING  * Debugger is active!
+2023-05-24 18:20:51,885 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:20:57,566 INFO 127.0.0.1 - - [24/May/2023 18:20:57] "GET /user/update_user/11 HTTP/1.1" 200 -
+2023-05-24 18:20:57,586 INFO 127.0.0.1 - - [24/May/2023 18:20:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:22:14,900 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:22:14,947 INFO  * Restarting with stat
+2023-05-24 18:22:15,212 WARNING  * Debugger is active!
+2023-05-24 18:22:15,212 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:22:51,617 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "[35m[1mGET /user/update_user/11 HTTP/1.1[0m" 500 -
+2023-05-24 18:22:51,664 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "GET /user/update_user/11?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-24 18:22:51,664 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "GET /user/update_user/11?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-24 18:22:51,674 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "GET /user/update_user/11?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-24 18:22:51,680 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:22:51,794 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "[35m[1mGET /user/update_user/11 HTTP/1.1[0m" 500 -
+2023-05-24 18:22:51,817 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:22:51,820 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:22:51,838 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:22:51,845 INFO 127.0.0.1 - - [24/May/2023 18:22:51] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:22:52,017 INFO 127.0.0.1 - - [24/May/2023 18:22:52] "[35m[1mGET /user/update_user/11 HTTP/1.1[0m" 500 -
+2023-05-24 18:22:52,049 INFO 127.0.0.1 - - [24/May/2023 18:22:52] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:22:52,050 INFO 127.0.0.1 - - [24/May/2023 18:22:52] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:22:52,068 INFO 127.0.0.1 - - [24/May/2023 18:22:52] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:22:52,077 INFO 127.0.0.1 - - [24/May/2023 18:22:52] "[36mGET /user/update_user/11?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:23:24,399 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:23:24,453 INFO  * Restarting with stat
+2023-05-24 18:23:24,722 WARNING  * Debugger is active!
+2023-05-24 18:23:24,722 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:23:37,583 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:23:37,647 INFO  * Restarting with stat
+2023-05-24 18:23:37,916 WARNING  * Debugger is active!
+2023-05-24 18:23:37,917 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:23:40,761 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:23:40,761 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:23:40,762 INFO  * Restarting with stat
+2023-05-24 18:23:41,054 WARNING  * Debugger is active!
+2023-05-24 18:23:41,054 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:23:44,013 INFO 127.0.0.1 - - [24/May/2023 18:23:44] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:23:44,038 INFO 127.0.0.1 - - [24/May/2023 18:23:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:23:46,655 INFO 127.0.0.1 - - [24/May/2023 18:23:46] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:23:46,696 INFO 127.0.0.1 - - [24/May/2023 18:23:46] "GET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-24 18:23:46,696 INFO 127.0.0.1 - - [24/May/2023 18:23:46] "GET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-24 18:23:46,714 INFO 127.0.0.1 - - [24/May/2023 18:23:46] "GET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-24 18:23:46,729 INFO 127.0.0.1 - - [24/May/2023 18:23:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:16,260 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:24:16,309 INFO  * Restarting with stat
+2023-05-24 18:24:16,581 WARNING  * Debugger is active!
+2023-05-24 18:24:16,582 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:24:31,636 INFO 127.0.0.1 - - [24/May/2023 18:24:31] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:31,656 INFO 127.0.0.1 - - [24/May/2023 18:24:31] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:31,657 INFO 127.0.0.1 - - [24/May/2023 18:24:31] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:31,671 INFO 127.0.0.1 - - [24/May/2023 18:24:31] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:31,683 INFO 127.0.0.1 - - [24/May/2023 18:24:31] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,336 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:32,366 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,371 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,396 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,405 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,657 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:32,666 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,667 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,677 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,686 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,825 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:32,839 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,842 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,861 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,870 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:32,989 INFO 127.0.0.1 - - [24/May/2023 18:24:32] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:33,017 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,023 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,050 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,061 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,127 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:33,142 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,144 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,162 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,172 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,317 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:33,327 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,327 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,334 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:33,345 INFO 127.0.0.1 - - [24/May/2023 18:24:33] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:44,361 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:24:44,410 INFO  * Restarting with stat
+2023-05-24 18:24:44,677 WARNING  * Debugger is active!
+2023-05-24 18:24:44,677 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:24:45,436 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:45,455 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,456 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,470 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,480 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,569 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:45,593 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,597 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,620 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,631 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,732 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:45,753 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,754 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,774 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,784 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,891 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:45,902 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,903 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,918 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:45,927 INFO 127.0.0.1 - - [24/May/2023 18:24:45] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,051 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:46,067 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,068 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,083 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,093 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,227 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:46,250 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,253 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,273 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,287 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,387 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:46,402 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,403 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,426 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,454 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,589 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:46,619 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,625 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,653 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,665 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,743 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:46,768 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,776 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,797 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,807 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,938 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:46,946 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,947 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,959 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:46,967 INFO 127.0.0.1 - - [24/May/2023 18:24:46] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,252 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:47,280 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,287 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,310 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,322 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,559 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[35m[1mGET /user/update_user/4 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:47,586 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,589 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,620 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:47,635 INFO 127.0.0.1 - - [24/May/2023 18:24:47] "[36mGET /user/update_user/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:53,223 INFO 127.0.0.1 - - [24/May/2023 18:24:53] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:24:53,257 INFO 127.0.0.1 - - [24/May/2023 18:24:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:24:54,937 INFO 127.0.0.1 - - [24/May/2023 18:24:54] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:24:54,977 INFO 127.0.0.1 - - [24/May/2023 18:24:54] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:24:54,980 INFO 127.0.0.1 - - [24/May/2023 18:24:54] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:24:55,000 INFO 127.0.0.1 - - [24/May/2023 18:24:55] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:24:55,013 INFO 127.0.0.1 - - [24/May/2023 18:24:55] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:05,681 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:25:05,681 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:25:05,682 INFO  * Restarting with stat
+2023-05-24 18:25:05,951 WARNING  * Debugger is active!
+2023-05-24 18:25:05,951 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:25:28,482 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:25:28,496 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,501 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,519 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,526 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,660 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:25:28,686 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,692 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,725 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,745 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,844 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:25:28,855 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,855 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,881 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:28,901 INFO 127.0.0.1 - - [24/May/2023 18:25:28] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,043 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:25:29,074 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,076 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,095 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,108 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,210 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:25:29,232 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,236 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,256 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:29,269 INFO 127.0.0.1 - - [24/May/2023 18:25:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:25:34,714 INFO 127.0.0.1 - - [24/May/2023 18:25:34] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:25:34,741 INFO 127.0.0.1 - - [24/May/2023 18:25:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:25:36,341 INFO 127.0.0.1 - - [24/May/2023 18:25:36] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:25:36,379 INFO 127.0.0.1 - - [24/May/2023 18:25:36] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:25:36,383 INFO 127.0.0.1 - - [24/May/2023 18:25:36] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:25:36,404 INFO 127.0.0.1 - - [24/May/2023 18:25:36] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:26:29,974 INFO 127.0.0.1 - - [24/May/2023 18:26:29] "[35m[1mGET /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:26:29,982 INFO 127.0.0.1 - - [24/May/2023 18:26:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:26:29,984 INFO 127.0.0.1 - - [24/May/2023 18:26:29] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:26:30,005 INFO 127.0.0.1 - - [24/May/2023 18:26:30] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:26:30,026 INFO 127.0.0.1 - - [24/May/2023 18:26:30] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:27:30,784 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:27:30,851 INFO  * Restarting with stat
+2023-05-24 18:27:31,126 WARNING  * Debugger is active!
+2023-05-24 18:27:31,126 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:28:14,599 INFO 127.0.0.1 - - [24/May/2023 18:28:14] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:28:14,615 INFO 127.0.0.1 - - [24/May/2023 18:28:14] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:28:21,976 INFO 127.0.0.1 - - [24/May/2023 18:28:21] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:28:21,986 INFO 127.0.0.1 - - [24/May/2023 18:28:21] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:28:22,431 INFO 127.0.0.1 - - [24/May/2023 18:28:22] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:28:22,455 INFO 127.0.0.1 - - [24/May/2023 18:28:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:28:22,614 INFO 127.0.0.1 - - [24/May/2023 18:28:22] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:28:22,637 INFO 127.0.0.1 - - [24/May/2023 18:28:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:28:22,819 INFO 127.0.0.1 - - [24/May/2023 18:28:22] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:28:22,833 INFO 127.0.0.1 - - [24/May/2023 18:28:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:28:30,552 INFO 127.0.0.1 - - [24/May/2023 18:28:30] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:28:30,578 INFO 127.0.0.1 - - [24/May/2023 18:28:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:28:33,049 INFO 127.0.0.1 - - [24/May/2023 18:28:33] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:28:33,084 INFO 127.0.0.1 - - [24/May/2023 18:28:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:30:17,070 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:30:17,117 INFO  * Restarting with stat
+2023-05-24 18:30:17,381 WARNING  * Debugger is active!
+2023-05-24 18:30:17,381 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:31:51,136 INFO 127.0.0.1 - - [24/May/2023 18:31:51] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:31:51,151 INFO 127.0.0.1 - - [24/May/2023 18:31:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:33:51,327 INFO 127.0.0.1 - - [24/May/2023 18:33:51] "[31m[1mPOST /user/update_user/1 HTTP/1.1[0m" 405 -
+2023-05-24 18:34:41,174 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:34:41,225 INFO  * Restarting with stat
+2023-05-24 18:34:41,506 WARNING  * Debugger is active!
+2023-05-24 18:34:41,507 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:34:42,776 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:34:42,776 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:34:42,777 INFO  * Restarting with stat
+2023-05-24 18:34:43,076 WARNING  * Debugger is active!
+2023-05-24 18:34:43,077 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:34:52,619 INFO 127.0.0.1 - - [24/May/2023 18:34:52] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:34:52,643 INFO 127.0.0.1 - - [24/May/2023 18:34:52] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:34:54,836 INFO 127.0.0.1 - - [24/May/2023 18:34:54] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:34:54,879 INFO 127.0.0.1 - - [24/May/2023 18:34:54] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:35:01,523 INFO 127.0.0.1 - - [24/May/2023 18:35:01] "[31m[1mPOST /user/update_user/1 HTTP/1.1[0m" 405 -
+2023-05-24 18:35:24,257 INFO 127.0.0.1 - - [24/May/2023 18:35:24] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:35:24,276 INFO 127.0.0.1 - - [24/May/2023 18:35:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:35:37,609 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-24 18:35:37,661 INFO  * Restarting with stat
+2023-05-24 18:35:37,929 WARNING  * Debugger is active!
+2023-05-24 18:35:37,929 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:35:39,725 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-24 18:35:39,725 INFO [33mPress CTRL+C to quit[0m
+2023-05-24 18:35:39,726 INFO  * Restarting with stat
+2023-05-24 18:35:40,048 WARNING  * Debugger is active!
+2023-05-24 18:35:40,049 INFO  * Debugger PIN: 330-407-437
+2023-05-24 18:35:41,886 INFO 127.0.0.1 - - [24/May/2023 18:35:41] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:35:41,907 INFO 127.0.0.1 - - [24/May/2023 18:35:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:35:47,906 INFO 127.0.0.1 - - [24/May/2023 18:35:47] "[35m[1mPOST /user/update_user/1 HTTP/1.1[0m" 500 -
+2023-05-24 18:35:47,942 INFO 127.0.0.1 - - [24/May/2023 18:35:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-24 18:35:47,944 INFO 127.0.0.1 - - [24/May/2023 18:35:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-24 18:35:47,957 INFO 127.0.0.1 - - [24/May/2023 18:35:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:35:47,970 INFO 127.0.0.1 - - [24/May/2023 18:35:47] "[36mGET /user/update_user/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-24 18:36:17,485 INFO 127.0.0.1 - - [24/May/2023 18:36:17] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:36:17,500 INFO 127.0.0.1 - - [24/May/2023 18:36:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:36:19,096 INFO 127.0.0.1 - - [24/May/2023 18:36:19] "GET /user/update_user/1 HTTP/1.1" 200 -
+2023-05-24 18:36:19,124 INFO 127.0.0.1 - - [24/May/2023 18:36:19] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-24 18:36:25,324 INFO 127.0.0.1 - - [24/May/2023 18:36:25] "[32mPOST /user/update_user/1 HTTP/1.1[0m" 302 -
+2023-05-24 18:36:25,335 INFO 127.0.0.1 - - [24/May/2023 18:36:25] "GET /user/admin_dashboard HTTP/1.1" 200 -
+2023-05-24 18:36:25,364 INFO 127.0.0.1 - - [24/May/2023 18:36:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -

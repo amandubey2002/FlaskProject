@@ -1,0 +1,63 @@
+{% extends 'admin_base.html' %} {% block title %}
+<title>Admin Dashboard</title>
+{% endblock %} {% block content %}
+<body>
+print({{session.role}})
+  <form method="post" action="">
+    <div class="container-xl">
+      <table class="table table-bordered text-dark mt-3">
+        <thead>
+          <tr>
+            <th scope="col">User ID</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Password</th>
+            <th scope="col">role</th>
+            {% if session.role =="admin" %}
+            <th scope="col">Action</th>
+            {% endif %}
+          </tr>
+        </thead>
+        {% for user in users %}
+        <tbody>
+          <tr>
+            <th scope="row">{{ user[0] }}</th>
+            <td>{{ user[1] }}</td>
+            <td>{{ user[2] }}</td>
+            <td>{{ user[3] }}</td>
+            <td>{{ user[4] }}</td>
+            <td>
+              {% if session.role =="admin" %}
+              <button
+                value="{{ user[0] }}"
+                name="delete_user"
+                onclick="return confirm('Are you sure you want to delete this product?')"
+                class="btn btn-danger">
+                <a class="page-link" href="{{url_for('user_blueprint.delete_user',id=user[0])}}">
+                Delete
+              </button>
+              <br>
+              <button value="{{ user[0] }}" class="btn btn-primary">
+                <a class="page-link" href = "/user/update_user/{{ user[0] }}"
+                          name="user_id"
+                          
+                        >Update</a>
+              </button>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% if session.role == 'admin' %}
+      <button class="btn btn-primary">
+      <a class="page-link" href="{{ url_for('user_blueprint.admin_user_add') }}"
+                name=""
+                
+              >Add User</a>
+    </button>
+    {% endif %}
+    </div>
+  </form>
+</body>
+{% endblock %}

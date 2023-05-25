@@ -39,3 +39,21 @@
 2023-05-23 12:08:51,871 ERROR Cursor closed
 2023-05-23 12:20:13,461 ERROR Cursor closed
 2023-05-23 12:20:49,653 ERROR Cursor closed
+2023-05-23 12:41:00,707 ERROR Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2023-05-23 12:41:52,998 ERROR Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2023-05-23 12:42:23,280 ERROR Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2023-05-23 15:02:42,590 ERROR Could not build url for endpoint '/user_blueprint/login'. Did you mean 'user_blueprint.login' instead?
+2023-05-23 15:03:16,881 ERROR Could not build url for endpoint '/user_blueprint.login'. Did you mean 'user_blueprint.login' instead?
+2023-05-23 15:03:35,440 ERROR Could not build url for endpoint '/user_blueprint.login'. Did you mean 'user_blueprint.login' instead?
