@@ -254,6 +254,7 @@ def admin_dashboard():
     
     
 @user_blueprint.route("/admin_user_add",methods=["GET","POST"])
+@admin_login_required
 def admin_user_add():
     if request.method=="POST":
         username = request.form['username']
@@ -313,6 +314,7 @@ def admin_logout():
         return redirect(url_for("user_blueprint.admin_login"))
 
 @user_blueprint.route("/update_user/<int:id>",methods=["GET","POST"])
+@admin_login_required
 def update_user(id):
     print("this is id",id)
     select_query = "select * from Users where id = %s"

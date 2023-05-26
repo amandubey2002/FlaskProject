@@ -1,0 +1,182 @@
+2023-05-26 09:39:35,666 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 09:39:35,666 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 09:39:35,667 INFO  * Restarting with stat
+2023-05-26 09:39:36,040 WARNING  * Debugger is active!
+2023-05-26 09:39:36,123 INFO  * Debugger PIN: 995-444-036
+2023-05-26 09:40:42,312 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-26 09:40:42,410 INFO  * Restarting with stat
+2023-05-26 09:40:42,796 WARNING  * Debugger is active!
+2023-05-26 09:40:42,796 INFO  * Debugger PIN: 995-444-036
+2023-05-26 09:40:50,402 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/user_api.py', reloading
+2023-05-26 09:40:50,469 INFO  * Restarting with stat
+2023-05-26 09:40:50,863 WARNING  * Debugger is active!
+2023-05-26 09:40:50,864 INFO  * Debugger PIN: 995-444-036
+2023-05-26 09:44:50,244 INFO 127.0.0.1 - - [26/May/2023 09:44:50] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2023-05-26 09:44:50,262 INFO 127.0.0.1 - - [26/May/2023 09:44:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-26 09:50:28,850 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 09:50:28,850 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 09:50:28,851 INFO  * Restarting with stat
+2023-05-26 09:50:29,239 WARNING  * Debugger is active!
+2023-05-26 09:50:29,342 INFO  * Debugger PIN: 106-538-104
+2023-05-26 09:51:14,822 INFO 127.0.0.1 - - [26/May/2023 09:51:14] "[33mGET /Products HTTP/1.1[0m" 404 -
+2023-05-26 09:51:16,146 INFO 127.0.0.1 - - [26/May/2023 09:51:16] "[33mGET /Products HTTP/1.1[0m" 404 -
+2023-05-26 09:51:26,279 INFO 127.0.0.1 - - [26/May/2023 09:51:26] "[33mGET /rest/Products/ HTTP/1.1[0m" 404 -
+2023-05-26 09:51:26,976 INFO 127.0.0.1 - - [26/May/2023 09:51:26] "[33mGET /rest/Products/ HTTP/1.1[0m" 404 -
+2023-05-26 09:51:30,450 INFO 127.0.0.1 - - [26/May/2023 09:51:30] "[31m[1mGET /rest/Products HTTP/1.1[0m" 401 -
+2023-05-26 09:51:37,729 INFO 127.0.0.1 - - [26/May/2023 09:51:37] "[33mPOST /token HTTP/1.1[0m" 404 -
+2023-05-26 09:51:38,622 INFO 127.0.0.1 - - [26/May/2023 09:51:38] "[33mPOST /token HTTP/1.1[0m" 404 -
+2023-05-26 09:51:45,818 INFO 127.0.0.1 - - [26/May/2023 09:51:45] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:51:50,841 INFO 127.0.0.1 - - [26/May/2023 09:51:50] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:52:05,754 INFO 127.0.0.1 - - [26/May/2023 09:52:05] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:52:06,686 INFO 127.0.0.1 - - [26/May/2023 09:52:06] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:52:08,415 INFO 127.0.0.1 - - [26/May/2023 09:52:08] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:52:50,774 INFO 127.0.0.1 - - [26/May/2023 09:52:50] "[33mPOST /rest/token/ HTTP/1.1[0m" 404 -
+2023-05-26 09:52:53,976 INFO 127.0.0.1 - - [26/May/2023 09:52:53] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:53:52,568 INFO 127.0.0.1 - - [26/May/2023 09:53:52] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:53:53,290 INFO 127.0.0.1 - - [26/May/2023 09:53:53] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:54:39,757 INFO 127.0.0.1 - - [26/May/2023 09:54:39] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:54:41,017 INFO 127.0.0.1 - - [26/May/2023 09:54:41] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:54:42,028 INFO 127.0.0.1 - - [26/May/2023 09:54:42] "[31m[1mPOST /rest/token HTTP/1.1[0m" 401 -
+2023-05-26 09:55:01,128 INFO 127.0.0.1 - - [26/May/2023 09:55:01] "POST /rest/token HTTP/1.1" 200 -
+2023-05-26 09:55:26,186 INFO 127.0.0.1 - - [26/May/2023 09:55:26] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 09:55:38,784 INFO 127.0.0.1 - - [26/May/2023 09:55:38] "GET /rest/Products/2 HTTP/1.1" 200 -
+2023-05-26 09:55:42,991 INFO 127.0.0.1 - - [26/May/2023 09:55:42] "[33mGET /rest/Products/ HTTP/1.1[0m" 404 -
+2023-05-26 09:55:45,068 INFO 127.0.0.1 - - [26/May/2023 09:55:45] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 09:57:15,628 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 09:57:15,714 INFO  * Restarting with stat
+2023-05-26 09:57:16,115 WARNING  * Debugger is active!
+2023-05-26 09:57:16,116 INFO  * Debugger PIN: 106-538-104
+2023-05-26 09:57:24,566 INFO 127.0.0.1 - - [26/May/2023 09:57:24] "GET /rest/Products/1 HTTP/1.1" 200 -
+2023-05-26 09:58:10,534 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 09:58:10,612 INFO  * Restarting with stat
+2023-05-26 09:58:11,009 WARNING  * Debugger is active!
+2023-05-26 09:58:11,009 INFO  * Debugger PIN: 106-538-104
+2023-05-26 09:58:14,211 INFO 127.0.0.1 - - [26/May/2023 09:58:14] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:00:43,196 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:00:43,268 INFO  * Restarting with stat
+2023-05-26 10:00:43,679 WARNING  * Debugger is active!
+2023-05-26 10:00:43,679 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:00:45,432 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 10:00:45,432 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 10:00:45,432 INFO  * Restarting with stat
+2023-05-26 10:00:45,861 WARNING  * Debugger is active!
+2023-05-26 10:00:45,862 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:00:53,406 INFO 127.0.0.1 - - [26/May/2023 10:00:53] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:02:13,198 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:02:13,271 INFO  * Restarting with stat
+2023-05-26 10:02:13,684 WARNING  * Debugger is active!
+2023-05-26 10:02:13,684 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:02:15,517 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 10:02:15,517 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 10:02:15,517 INFO  * Restarting with stat
+2023-05-26 10:02:15,921 WARNING  * Debugger is active!
+2023-05-26 10:02:15,921 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:02:19,056 ERROR 'id'
+2023-05-26 10:02:19,057 INFO 127.0.0.1 - - [26/May/2023 10:02:19] "[35m[1mGET /rest/Products HTTP/1.1[0m" 500 -
+2023-05-26 10:02:28,813 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:02:28,884 INFO  * Restarting with stat
+2023-05-26 10:02:29,297 WARNING  * Debugger is active!
+2023-05-26 10:02:29,298 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:02:30,236 INFO 127.0.0.1 - - [26/May/2023 10:02:30] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:02:31,305 INFO 127.0.0.1 - - [26/May/2023 10:02:31] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:02:53,974 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:02:54,040 INFO  * Restarting with stat
+2023-05-26 10:02:54,419 WARNING  * Debugger is active!
+2023-05-26 10:02:54,419 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:02:59,869 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:02:59,932 INFO  * Restarting with stat
+2023-05-26 10:03:00,318 WARNING  * Debugger is active!
+2023-05-26 10:03:00,318 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:03:02,327 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 10:03:02,327 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 10:03:02,328 INFO  * Restarting with stat
+2023-05-26 10:03:02,749 WARNING  * Debugger is active!
+2023-05-26 10:03:02,749 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:03:04,070 INFO 127.0.0.1 - - [26/May/2023 10:03:04] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:03:07,853 INFO 127.0.0.1 - - [26/May/2023 10:03:07] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:03:27,383 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:03:27,457 INFO  * Restarting with stat
+2023-05-26 10:03:27,865 WARNING  * Debugger is active!
+2023-05-26 10:03:27,866 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:03:29,681 INFO 127.0.0.1 - - [26/May/2023 10:03:29] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:03:44,041 INFO 127.0.0.1 - - [26/May/2023 10:03:44] "DELETE /rest/Products/5 HTTP/1.1" 200 -
+2023-05-26 10:03:51,676 INFO 127.0.0.1 - - [26/May/2023 10:03:51] "GET /rest/Products/5 HTTP/1.1" 200 -
+2023-05-26 10:04:06,337 INFO 127.0.0.1 - - [26/May/2023 10:04:06] "GET /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:04:25,593 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-26 10:04:25,595 INFO 127.0.0.1 - - [26/May/2023 10:04:25] "[35m[1mPOST /rest/Products HTTP/1.1[0m" 500 -
+2023-05-26 10:04:54,200 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:04:54,268 INFO  * Restarting with stat
+2023-05-26 10:04:54,652 WARNING  * Debugger is active!
+2023-05-26 10:04:54,653 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:05:09,692 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:05:09,759 INFO  * Restarting with stat
+2023-05-26 10:05:10,136 WARNING  * Debugger is active!
+2023-05-26 10:05:10,137 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:05:14,891 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 10:05:14,891 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 10:05:14,891 INFO  * Restarting with stat
+2023-05-26 10:05:15,310 WARNING  * Debugger is active!
+2023-05-26 10:05:15,311 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:05:17,069 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-26 10:05:17,072 INFO 127.0.0.1 - - [26/May/2023 10:05:17] "[35m[1mPOST /rest/Products HTTP/1.1[0m" 500 -
+2023-05-26 10:05:44,177 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:05:44,241 INFO  * Restarting with stat
+2023-05-26 10:05:44,620 WARNING  * Debugger is active!
+2023-05-26 10:05:44,620 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:05:46,362 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-26 10:05:46,362 INFO 127.0.0.1 - - [26/May/2023 10:05:46] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:06:42,369 ERROR 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-05-26 10:06:42,369 INFO 127.0.0.1 - - [26/May/2023 10:06:42] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:08:05,150 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:08:05,214 INFO  * Restarting with stat
+2023-05-26 10:08:05,596 WARNING  * Debugger is active!
+2023-05-26 10:08:05,597 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:08:33,324 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 10:08:33,324 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 10:08:33,325 INFO  * Restarting with stat
+2023-05-26 10:08:33,705 WARNING  * Debugger is active!
+2023-05-26 10:08:33,705 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:08:37,810 ERROR 'handle'
+2023-05-26 10:08:37,811 INFO 127.0.0.1 - - [26/May/2023 10:08:37] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:08:38,839 ERROR 'handle'
+2023-05-26 10:08:38,839 INFO 127.0.0.1 - - [26/May/2023 10:08:38] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:09:30,493 ERROR 'variant_sku'
+2023-05-26 10:09:30,493 INFO 127.0.0.1 - - [26/May/2023 10:09:30] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:09:44,049 ERROR 'variant_inventory_tracker'
+2023-05-26 10:09:44,050 INFO 127.0.0.1 - - [26/May/2023 10:09:44] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:10:00,472 ERROR 'image__src'
+2023-05-26 10:10:00,473 INFO 127.0.0.1 - - [26/May/2023 10:10:00] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:10:10,177 INFO 127.0.0.1 - - [26/May/2023 10:10:10] "POST /rest/Products HTTP/1.1" 200 -
+2023-05-26 10:10:36,248 INFO 127.0.0.1 - - [26/May/2023 10:10:36] "[35m[1mPUT /rest/Products/5 HTTP/1.1[0m" 500 -
+2023-05-26 10:11:13,650 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:11:13,721 INFO  * Restarting with stat
+2023-05-26 10:11:15,198 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-05-26 10:11:15,198 INFO [33mPress CTRL+C to quit[0m
+2023-05-26 10:11:15,199 INFO  * Restarting with stat
+2023-05-26 10:11:15,617 WARNING  * Debugger is active!
+2023-05-26 10:11:15,617 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:11:17,898 INFO 127.0.0.1 - - [26/May/2023 10:11:17] "PUT /rest/Products/5 HTTP/1.1" 200 -
+2023-05-26 10:11:45,852 INFO 127.0.0.1 - - [26/May/2023 10:11:45] "PUT /rest/Products/5 HTTP/1.1" 200 -
+2023-05-26 10:14:04,091 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:14:04,162 INFO  * Restarting with stat
+2023-05-26 10:14:04,560 WARNING  * Debugger is active!
+2023-05-26 10:14:04,560 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:14:06,835 INFO 127.0.0.1 - - [26/May/2023 10:14:06] "PUT /rest/Products/5 HTTP/1.1" 200 -
+2023-05-26 10:14:51,477 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:14:51,553 INFO  * Restarting with stat
+2023-05-26 10:14:51,951 WARNING  * Debugger is active!
+2023-05-26 10:14:51,951 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:14:53,605 INFO 127.0.0.1 - - [26/May/2023 10:14:53] "PUT /rest/Products/5 HTTP/1.1" 200 -
+2023-05-26 10:15:13,386 INFO  * Detected change in '/home/simprosys-aman/Aman/Flask/Flask Practical/Aman/rest_api.py', reloading
+2023-05-26 10:15:13,451 INFO  * Restarting with stat
+2023-05-26 10:15:13,840 WARNING  * Debugger is active!
+2023-05-26 10:15:13,840 INFO  * Debugger PIN: 106-538-104
+2023-05-26 10:15:16,760 INFO 127.0.0.1 - - [26/May/2023 10:15:16] "PUT /rest/Products/5 HTTP/1.1" 200 -
